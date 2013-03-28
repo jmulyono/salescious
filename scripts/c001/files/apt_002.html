@@ -1,0 +1,2139 @@
+<!DOCTYPE html>
+
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<meta charset="ISO-8859-1">
+
+<!--
+
+    Data center: navyyard
+    Server name: UOPHLPAPP08.phl.ecomm.urbanout.com-store01
+    Release tag: tags/TAG_2013030601_UINT2013030801
+    Manifest Trac: #5905 
+
+-->
+
+<title>Apartment Sale - Urban Outfitters</title>
+
+<!-- Content description -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="canonical" href="http://www.urbanoutfitters.com/urban/catalog/category.jsp?id=SALE_APT">
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- RSS autodiscovery -->
+<link rel="alternate" type="application/rss+xml" href="http://feeds2.feedburner.com/uorss" title="UO Daily Updates">
+
+<!-- Crawling/caching instructions -->
+<meta name="robots" content="noarchive">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+
+<!-- Shared stylesheets -->
+<link rel="stylesheet" type="text/css" media="all" href="/urban/css/common.css">
+<link rel="stylesheet" type="text/css" media="all" href="/urban/css/baynote.css">
+<link rel="stylesheet" type="text/css" media="all" href="/urban/css/rich.css">
+
+<!-- Shared scripts -->
+<script src="/urban/js/prototype.js"></script>
+<script src="/urban/js/scriptaculous.js"></script>
+<script src="/urban/js/jquery/jquery.js"></script>
+<script src="/urban/js/jquery/jquery-ui.js"></script>
+<script>
+
+    jQuery.noConflict();
+
+</script>
+<script src="/urban/js/common.js"></script>
+<script src="/urban/js/functions.js"></script>
+<script src="/urban/js/scripts.js"></script>
+<script src="/urban/js/instantsearch.js"></script>
+
+
+<!-- Monetate (v6) -->
+<script type="text/javascript">
+
+    var monetateT = new Date().getTime();
+    (function() {
+        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = "//b.monetate.net/js/1/a-da93a377/p/urbanoutfitters.com/" + Math.floor((monetateT + 2308727) / 3600000) + "/g";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+    })();
+
+</script>
+
+<!-- Coremetrics -->
+<script src="//libs.coremetrics.com/eluminate.js"></script>
+<script src="/urban/js/coremetrics.js"></script>
+<script>
+
+    jQuery(document).ready(function() {
+        cmSetClientID("90052453", false, "www2.urbanoutfitters.com", "urbanoutfitters.com");
+        cmSetupOther({
+            "cm_TrackImpressions": ""
+        });
+    });
+
+</script>
+
+<!-- Category-specific CSS and JS -->
+<link rel="stylesheet" media="all" href="/urban/css/catalog/category.css">
+<script src="/urban/js/catalog/category.js"></script>
+<script src="/urban/js/swfobject.js"></script>
+
+<!-- Snapshot-specific CSS and JS -->
+<link rel="stylesheet" media="all" href="/urban/css/catalog/snapshot.css" />
+<script src="/urban/js/catalog/snapshot.js"></script>
+
+<!-- Header -->
+<div id="header">
+    
+    <!-- Header search input -->
+    <div id="header-search">
+        <form method="GET" action="/urban/catalog/search.jsp">
+            <p><input id="header-search-query" type="search" name="q" value="" placeholder="SEARCH"> <input id="header-search-submit" type="submit" value="Go"></p>
+        </form>
+    </div>
+    
+    <!-- Header nav -->
+    <div id="header-nav">
+        <h2 id="header-nav-home"><a href="/urban/index.jsp"><img src="/urban/images/urban-outfitters.png" alt="Urban Outfitters"></a></h2>
+        <div id="header-nav-categories">
+            <h2 id="header-nav-womens"><a href="/urban/catalog/category.jsp?id=WOMENS"><span>Women's</span></a></h2>
+            <h2 id="header-nav-mens"><a href="/urban/catalog/category.jsp?id=MENS"><span>Men's</span></a></h2>
+            <h2 id="header-nav-apartment"><a href="/urban/catalog/category.jsp?id=APARTMENT"><span>Apartment</span></a></h2>
+            <h2 id="header-nav-sale"><a class="selected" href="/urban/catalog/category.jsp?id=SALE"><span>Sale</span></a></h2>
+            <h2 id="header-nav-general"><a href="/urban/catalog/category.jsp?id=GENERAL_CATEGORY"><span>Gifts</span></a></h2>
+        </div>
+        <h2 id="header-nav-blog"><a href="http://blog.urbanoutfitters.com/"><span>Blog</span></a></h2>
+    </div>
+    
+    <!-- Header subnav -->
+    <div id="header-subnav">
+<script type="text/javascript">
+
+(function($) {
+	$(document).ready(function() {
+			
+		/*  Update homepage header */
+		
+			var ranNum = Math.floor(Math.random()*5) + 1;
+			$("div#header-nav h2#header-nav-home a img").attr("src", "/urban/emails/urban_outfitters" + ranNum + ".png");
+
+		/* end homepage header */
+
+		/* Drop Down Menu */
+		$("#header-nav-categories h2").mouseover(function(){
+		  navID = "#" + $(this).attr("id") + "-subnav";
+		  headerID = $(this).children();
+		  subnavHeight = $(navID).height();
+		  
+		  $(".subnavTwoColList").hide();
+		  $(navID).show();
+		  $("#header-subnav-wrapper").stop(true, false).animate({ "height" : subnavHeight }, 200);
+		});
+		
+		$(".subnavTwoColList").mouseover(function() {
+		  $(headerID).addClass("blue");
+		  $("#header-subnav-wrapper").stop(true, false).animate({ "height" : subnavHeight }, 200);
+		}); 
+		
+	    $("#header-nav-categories").mouseout(function(){
+	      $("#header-subnav-wrapper").stop(true, false).animate({ "height" : "0" }, 500);
+	    });
+	    
+		$(".subnavTwoColList").mouseout(function() {
+		  $(headerID).removeClass("blue");
+	      
+	      $("#header-subnav-wrapper").stop(true, false).animate({ "height" : "0" }, 500);
+		}); 
+	});
+})(jQuery);
+</script>
+
+<style type="text/css">
+
+div#header-nav h2 {
+	padding: 0 0 20px;
+	background: transparent;
+}
+
+div#header-nav-categories {
+  width: 400px;
+}
+
+#header-subnav-wrapper {
+  position: absolute;
+	top: 124px;
+	left: 231px;
+}
+
+#header-subnav-wrapper .subnavTwoColList {
+	width: 466px;
+	overflow: hidden;
+	border: none;
+	background: #ffffff;
+	z-index: 10000;
+	filter: alpha(opacity=96);
+	opacity: 0.96;
+	font: normal 12px "GRD Medium", "Helvetica Neue", sans-serif;
+	padding: 0 0 20px;
+	display: none;
+}
+
+#header-subnav-wrapper .subnavList {
+	margin: 0px auto;
+	padding: 0 0 20px;
+	display: none;
+	overflow: hidden; 
+}
+
+#header-subnav-wrapper a {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	overflow: hidden;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+
+#header-subnav-wrapper div.subnavTwoColList a:hover {
+	text-decoration: underline;
+}
+#header-subnav-wrapper div.subnavTwoColList a.parent {
+	text-transform: uppercase !important;
+	color: #000000 !important;
+	letter-spacing: 1px;
+	font: normal 12px "GRD Medium", "Helvetica Neue", sans-serif;
+}
+
+#header-subnav-wrapper div.subnavTwoColList a.parent.static:hover {
+	text-decoration: underline !important;
+	cursor: default !important;
+}
+
+#header-subnav-wrapper div.subnavTwoCol-column {
+
+	display: block;
+	float: left;
+	width: 184px;
+	overflow: hidden;
+	padding: 20px 1px 20px 36px;
+}
+
+#header-subnav-wrapper div.subnavTwoCol-column p {
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+}
+
+.subnavSpaced {
+    margin-top: 10px !important;
+}
+
+.blue {
+	color: #0000FF !important;
+}
+
+div#header-nav h2#header-nav-general {
+  left: 285px;
+}
+
+#header-nav-general a {
+}
+
+#header-nav-general span {
+ 
+}
+
+/* Header nav from commmon.css */
+div#header-nav {
+    width: 960px;
+    position: relative;
+    height: 124px;
+}
+
+div#header-nav h2 {
+    font: normal 12px "GRD Medium", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+}
+
+div#header-nav-categories {
+    width: 336px;
+    height: 26px;
+    position: absolute;
+    top: 96px;
+    left: 230px;
+}
+
+div#header-nav h2#header-nav-home {
+    top: 44px;
+    left: 252px;
+}
+
+#header-nav-home a img {
+/*  height: 38px;
+    width: auto; */
+}
+
+div#header-nav h2#header-nav-womens {
+    left: 0;
+}
+
+div#header-nav h2#header-nav-mens {
+    left: 100px;
+}
+
+div#header-nav h2#header-nav-apartment {
+    left: 173px;
+}
+
+div#header-nav h2#header-nav-general {
+    left: 293px;
+}
+
+div#header-nav h2#header-nav-sale {
+    left: 361px;
+}
+
+div#header-nav h2#header-nav-blog {
+    top: 96px;
+    left: 650px;
+}
+
+div#header-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 2px;
+}
+
+h2#header-nav-sale a {
+    color: rgb(255, 0, 0);
+}
+
+div#header-nav a:hover, div#header-nav a.selected, h2#header-nav-sale a:hover, h2#header-nav-sale a.selected {
+    color: rgb(0, 0, 255);
+}
+
+
+
+
+
+
+
+
+/* old gift code */
+.gift_anchor:hover {
+	cursor: default;
+	text-decoration: underline !important;
+}
+
+
+</style>
+
+
+<div id="header-subnav-wrapper" class="">
+	<div id="header-nav-womens-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+
+			<a href="/urban/catalog/category.jsp?id=W_NEWARRIVALS" class="parent">New Arrivals</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_ONLINEEX" class="parent subnavSpaced">Online Exclusives</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_APP_DRESSES" class="parent subnavSpaced">Dresses</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_TOPS" class="parent subnavSpaced">Tops</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_OUTERWEAR" class="parent subnavSpaced">Jackets + Blazers</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_BOTTOMS" class="parent subnavSpaced">Bottoms</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_INTIMATES" class="parent subnavSpaced">Lounge + Intimates</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_APP_SWIMWEAR" class="parent subnavSpaced">Swim</a>
+			
+			<a href="/urban/catalog/category.jsp?id=W_APP_VINTAGE" class="parent subnavSpaced">Vintage</a>
+		</div>
+		<div class="subnavTwoCol-column">
+
+			<a href="/urban/catalog/category.jsp?id=WOMENS_SHOES" class="parent">Shoes</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_BEAUTY" class="parent subnavSpaced">Beauty</a>
+
+			<a href="/urban/catalog/category.jsp?id=WOMENS_ACCESSORIES" class="parent subnavSpaced">Accessories</a>
+			
+						
+			<a class="parent static subnavSpaced">Collections</a>
+				<a href="/urban/catalog/category.jsp?id=W_FEATUREDBRANDS" class="child">Featured Brands</a>
+				<a href="/urban/catalog/category.jsp?id=W_COLL_SWIM" class="child">Swim Lookbook</a>
+				<a href="/urban/catalog/category.jsp?id=W_FESTIVAL" class="child">Festival Lookbook</a>
+				<a href="/urban/catalog/category.jsp?id=W_BEAUTYFEST" class="child">Festival Hair and Beauty</a>
+			
+			<a href="/urban/catalog/category.jsp?id=SALE_W" class="parent subnavSpaced" style="color:#ff0000 !important">Sale</a>
+
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+
+		</div>
+	</div>
+
+	<div id="header-nav-mens-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+			
+			<a href="/urban/catalog/category.jsp?id=M_NEWARRIVALS" class="parent ">New Arrivals</a>
+			
+			<a href="/urban/catalog/category.jsp?id=M_ONLINEEX" class="parent subnavSpaced">Online Exclusives</a>
+				
+			<a href="/urban/catalog/category.jsp?id=M_TOPS" class="parent subnavSpaced">Tops</a>
+	
+			<a href="/urban/catalog/category.jsp?id=M_OUTERWEAR" class="parent subnavSpaced">Jackets + Blazers</a>
+			
+			<a href="/urban/catalog/category.jsp?id=M_BOTTOMS" class="parent subnavSpaced">Bottoms</a>
+
+			<a href="/urban/catalog/category.jsp?id=M_VINTAGE" class="parent subnavSpaced">Vintage</a>				
+		</div>
+		<div class="subnavTwoCol-column">
+			<a href="/urban/catalog/category.jsp?id=MENS_SHOES" class="parent">Shoes</a>
+			
+			<a href="/urban/catalog/category.jsp?id=MENS_ACCESSORIES" class="parent subnavSpaced">Accessories</a>
+	
+		
+			<a class="parent static subnavSpaced">Collections</a>
+				<a href="/urban/catalog/category.jsp?id=M_FEATUREDBRANDS" class="child">Featured Brands</a>
+				
+			<a href="/urban/catalog/category.jsp?id=SALE_M" class="parent subnavSpaced" style="color:#ff0000 !important">Sale</a>
+
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+
+
+		</div>
+	</div>
+
+	<div id="header-nav-apartment-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+
+			<a href="/urban/catalog/category.jsp?id=A_NEWARRIVALS" class="parent">New Arrivals</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_ONLINEEX" class="parent subnavSpaced">Online Exclusives</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_DEC_BEDDING" class="parent subnavSpaced">Bedding</a>
+	
+			<a href="/urban/catalog/category.jsp?id=A_DECORATE" class="parent subnavSpaced">Room Accessories</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_RUGS" class="parent subnavSpaced">Rugs</a>
+
+			<a href="/urban/catalog/category.jsp?id=A_RUGPILCUR" class="parent subnavSpaced">Curtains + Pillows</a>
+				
+			<a href="/urban/catalog/category.jsp?id=A_FURN_WALL" class="parent subnavSpaced">Wall Art</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_FURNITURE" class="parent subnavSpaced">Furniture</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_DINNERWARE" class="parent subnavSpaced">Kitchen + Bar</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_BATH" class="parent subnavSpaced">Bath</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_VINTAGE" class="parent subnavSpaced">Vintage</a>
+
+		</div>
+		<div class="subnavTwoCol-column ">
+			<a href="/urban/catalog/category.jsp?id=A_MEDIA_GADGETS" class="parent" style="text-transform: none !important;">PHONE + TECH ACCESSORIES</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_ENT_BOOKS_BOOK" class="parent subnavSpaced">Books</a>
+
+			<a href="/urban/catalog/category.jsp?id=A_ENT_BOOKS_STATIONERY" class="parent subnavSpaced">Notebooks + Desk Supplies</a>
+			
+			<a href="/urban/catalog/category.jsp?id=APARTMENT_MEDIA" class="parent subnavSpaced">Cameras + Film</a>
+			
+			<a href="/urban/catalog/category.jsp?id=APARTMENT_MUSIC" class="parent subnavSpaced">Music + Electronics</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_ENT_GAMES" class="parent subnavSpaced">Games, Toys + Fun Sh!t</a>
+			
+			
+			<a class="parent static subnavSpaced">Collections</a>
+				<a href="/urban/catalog/category.jsp?id=A_BRANDS" class="child">Featured Brands</a>
+				<a href="/urban/catalog/category.jsp?id=A_REFRESH" class="child">Spring In Your Space</a>
+				<a href="/urban/catalog/category.jsp?id=APT_BIKESHOP" class="child">Build Your Own Bike</a>
+				<a href="/urban/catalog/category.jsp?id=A_CARDSHOP" class="child">Card Shop</a>				
+				<a href="/urban/catalog/category.jsp?id=APT_PRINTSHOP" class="child">Print Shop</a>
+
+			<a href="/urban/catalog/category.jsp?id=SALE_APT" class="parent subnavSpaced" style="color:#ff0000 !important">Sale</a>
+
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+
+		</div>
+	</div>
+	
+	<div id="header-nav-sale-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+			<a href="/urban/catalog/category.jsp?id=SALE_W" class="parent" style="color:#ff0000 !important">Women's Sale</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_DRESSES" class="child">Dresses</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_CLOTHING" class="child">Tops</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_CLOTHING_JACKETS" class="child">Jackets + Blazers</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_BOTTOMS" class="child">Bottoms</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_INTIMATES" class="child">Swim + Intimates</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_SHOES" class="child">Shoes</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_ACC" class="child">Accessories</a>
+				
+			<a href="/urban/catalog/category.jsp?id=SALE_APT" class="parent subnavSpaced" style="color:#ff0000 !important">Apartment Sale</a>
+			<a href="/urban/catalog/category.jsp?id=SALE_APT_ELECENTER" class="child">Electronics + Entertainment</a>
+			<a href="/urban/catalog/category.jsp?id=SALE_APT_FURNDEC" class="child">Furnish + Decorate</a>
+
+		</div>
+		<div class="subnavTwoCol-column ">
+			<a href="/urban/catalog/category.jsp?id=SALE_M" class="parent" style="color:#ff0000 !important">Men's Sale</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_CLOTHING" class="child">Tops</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_CLOTHING_JACKETS" class="child">Jackets + Blazers</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_BOTTOMS" class="child">Bottoms</a>
+
+				<a href="/urban/catalog/category.jsp?id=SALE_M_SHOES" class="child">Shoes</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_ACC" class="child">Accessories</a>
+			
+			<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP" class="parent subnavSpaced">STOCK UP</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP_W" class="child">Women's</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP_M" class="child">Men's</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP_A" class="child">Apartment</a>
+				
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+<!-- Category: SALE_APT -->
+<div id="category">   
+    
+    <!-- Request timestamp: Tue Mar 19 00:35:47 EDT 2013  -->
+    <!-- Request query string: &id=SALE_APT&startValue=81 -->
+    
+		                                <!-- Content generated at Tue Mar 19 00:23:45 EDT 2013 on UOPHLPAPP03.phl.ecomm.urbanout.com-store03 (Fredhopper: true) -->    
+    <!-- Request URL: http://www.urbanoutfitters.com/urban/catalog/category/category_content_memcached.jsp?&id=SALE_APT&startValue=81 -->
+    <!-- Category: SALE_APT; Fredhopper: true; item count: ; start value: 81; sort by:  -->                   
+                
+    <!-- Category content: SALE_APT -->
+    <div id="category-content" class="category-template-alt5">
+        <div id="category-gateway">
+            <!-- <h1><span>Apartment Sale</span></h1> -->
+            
+            <!-- External media content:  -->
+<style type="text/css">
+h1, #content_subheader {
+	display: none;
+} 
+
+img {
+	border: none;
+}
+
+#content_gateway_banner {
+	visibility: visible;
+}
+
+
+#content .content_gateway {
+	margin: 25px 98px;
+}
+
+#banner {
+	position: relative;
+}
+
+#link1 {
+	position: absolute;
+	width: 122px;
+	height: 34px;
+	left: 234px;
+	top: 92px;
+	background: fuchsia;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+#link2 {
+	position: absolute;
+	width: 96px;
+	height: 34px;
+	left: 356px;
+	top: 92px;
+	background: fuchsia;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+#link3 {
+	position: absolute;
+	width: 147px;
+	height: 34px;
+	left: 452px;
+	top: 92px;
+	background: fuchsia;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+</style>
+
+<div id="banner">	
+	<img src="http://us.urbanoutfitters.com/urban/emails/130311/SALE.jpg" width="808" height="126" alt="" />
+	<a href="http://www.urbanoutfitters.com/urban/catalog/category.jsp?id=SALE_W" id="link1"></a>
+	<a href="http://www.urbanoutfitters.com/urban/catalog/category.jsp?id=SALE_M" id="link2"></a>
+	<a href="http://www.urbanoutfitters.com/urban/catalog/category.jsp?id=SALE_APT" id="link3"></a>
+</div>
+        </div>
+        
+        <!-- Category pagination: SALE_APT -->
+        <div class="category-pagination">
+            <p class="category-pagination-sort"><select name="category-pagination-sort"><option value="?&id=SALE_APT">Sort products by...</option><!-- <option value="?&id=SALE_APT&sortBy=brandName">Brand A &rarr; Z</option><option value="?&id=SALE_APT&sortBy=-brandName">Brand Z &rarr; A</option> --><option value="?&id=SALE_APT&sortBy=price">Price &uarr;</option><option value="?&id=SALE_APT&sortBy=-price">Price &darr;</option><option value="?&id=SALE_APT&sortBy=-rating">Highest Rated</option><option value="?&id=SALE_APT&sortBy=displayName">A &rarr; Z</option><option value="?&id=SALE_APT&sortBy=-displayName">Z &rarr; A</option></select></p>
+            <p><span class="category-pagination-page-size"><a href="?&id=SALE_APT&itemCount=20">Show 20 per page</a></span> <span class="category-pagination-pages"><a href="?&id=SALE_APT&startValue=1">&larr;</a> 2 of 5 <a href="?&id=SALE_APT&startValue=161">&rarr;</a></span></p>
+        </div>
+        
+        <!-- Category products: SALE_APT -->
+        <div id="category-products">
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=24346165&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/24346165_001_a?$cat$" alt="Anne Cahsens Birds on a Wire Wall Decal"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=24346165&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=24346165&parentid=SALE_APT">Anne Cahsens Birds on a Wire Wall Decal</a></h2>
+                    <h3 class="price">$39.99</h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25494238&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25494238_095_a?$cat$" alt="Kitty Wall Decal - Set Of 3"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25494238&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25494238&parentid=SALE_APT">Kitty Wall Decal - Set Of 3</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $44.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25785759&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25785759_040_a?$cat$" alt="Sketch Wallpaper"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25785759&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25785759&parentid=SALE_APT">Sketch Wallpaper</a></h2>
+                    <h3 class="price"><span class="price-sale">$49.99</span> <span class="price-list">(was $99.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26098517&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26098517_095_a?$cat$" alt="Mystical Bird Print"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26098517&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26098517&parentid=SALE_APT">Mystical Bird Print</a></h2>
+                    <h3 class="price">$9.99</h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26118166&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26118166_095_a?$cat$" alt="Deer Landscape Wall Mural"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26118166&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26118166&parentid=SALE_APT">Deer Landscape Wall Mural</a></h2>
+                    <h3 class="price"><span class="price-sale">$59.99</span> <span class="price-list">(was $199.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26633685&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26633685_010_a?$cat$" alt="Cross-Stitch Wall Decor"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26633685&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26633685&parentid=SALE_APT">Cross-Stitch Wall Decor</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26633685&parentid=SALE_APT&color=010"><img src="/urban/images/swatches/26633685_010_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26633685&parentid=SALE_APT&color=001"><img src="/urban/images/swatches/26633685_001_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=23383185&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/23383185_001_a?$cat$" alt="Classic Metal Frame"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=23383185&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=23383185&parentid=SALE_APT">Classic Metal Frame</a></h2>
+                    <h3 class="price">$24.99</h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=21186275&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/21186275_000_a?$cat$" alt="Tiered Hanging Tea Light - Set Of 5"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=21186275&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=21186275&parentid=SALE_APT">Tiered Hanging Tea Light - Set Of 5</a></h2>
+                    <h3 class="price"><span class="price-sale">$29.99</span> <span class="price-list">(was $44.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26081190_001_a?$cat$" alt="Mirrored Letter"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT">Mirrored Letter</a></h2>
+                    <h3 class="price"><span class="price-sale">$4.99</span> <span class="price-list">(was $16.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-custom-text">Urban Exclusive</li>
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=001"><img src="/urban/images/swatches/26081190_001_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=002"><img src="/urban/images/swatches/26081190_002_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=003"><img src="/urban/images/swatches/26081190_003_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=004"><img src="/urban/images/swatches/26081190_004_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=005"><img src="/urban/images/swatches/26081190_005_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=006"><img src="/urban/images/swatches/26081190_006_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=007"><img src="/urban/images/swatches/26081190_007_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=009"><img src="/urban/images/swatches/26081190_009_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=010"><img src="/urban/images/swatches/26081190_010_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=013"><img src="/urban/images/swatches/26081190_013_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=015"><img src="/urban/images/swatches/26081190_015_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=016"><img src="/urban/images/swatches/26081190_016_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=017"><img src="/urban/images/swatches/26081190_017_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=018"><img src="/urban/images/swatches/26081190_018_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=019"><img src="/urban/images/swatches/26081190_019_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=020"><img src="/urban/images/swatches/26081190_020_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=021"><img src="/urban/images/swatches/26081190_021_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=023"><img src="/urban/images/swatches/26081190_023_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26081190&parentid=SALE_APT&color=026"><img src="/urban/images/swatches/26081190_026_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26132696&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26132696_066_a?$cat$" alt="Falconwright Mixed Print Leather Box"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26132696&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26132696&parentid=SALE_APT">Falconwright Mixed Print Leather Box</a></h2>
+                    <h3 class="price"><span class="price-sale">$6.99</span> <span class="price-list">(was $19.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26132696&parentid=SALE_APT&color=066"><img src="/urban/images/swatches/26132696_066_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26132696&parentid=SALE_APT&color=046"><img src="/urban/images/swatches/26132696_046_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26133165&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26133165_066_a?$cat$" alt="Falconwright Printed Leather Picture Frame"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26133165&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26133165&parentid=SALE_APT">Falconwright Printed Leather Picture Frame</a></h2>
+                    <h3 class="price"><span class="price-sale">$14.99</span> <span class="price-list">(was $29.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26133165&parentid=SALE_APT&color=066"><img src="/urban/images/swatches/26133165_066_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26133165&parentid=SALE_APT&color=001"><img src="/urban/images/swatches/26133165_001_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26133165&parentid=SALE_APT&color=030"><img src="/urban/images/swatches/26133165_030_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26583526&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26583526_100_a?$cat$" alt="DIY Diamond Clock"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26583526&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26583526&parentid=SALE_APT">DIY Diamond Clock</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99</span> <span class="price-list">(was $64.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26597468a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26597468a_030_a?$cat$" alt="Plum & Bow Etched Boudoir Mirror"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26597468a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26597468a&parentid=SALE_APT">Plum & Bow Etched Boudoir Mirror</a></h2>
+                    <h3 class="price"><span class="price-sale">$24.99</span> <span class="price-list">(was $69.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26597468a&parentid=SALE_APT&color=030"><img src="/urban/images/swatches/26597468a_030_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26597468a&parentid=SALE_APT&color=066"><img src="/urban/images/swatches/26597468a_066_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26633842&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26633842_100_a?$cat$" alt="Cumulous Wall Mirror"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26633842&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26633842&parentid=SALE_APT">Cumulous Wall Mirror</a></h2>
+                    <h3 class="price"><span class="price-sale">$59.99</span> <span class="price-list">(was $89.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=19901511a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/19901511a_041_a?$cat$" alt="4x6 Solid Rag Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=19901511a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=19901511a&parentid=SALE_APT">4x6 Solid Rag Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99</span> <span class="price-list">(was $69.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=20659470a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/20659470a_030_a?$cat$" alt="Zigzag Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=20659470a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=20659470a&parentid=SALE_APT">Zigzag Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$89.00-$99.99</span> <span class="price-list">(was $89.00-$199.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=24862112a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/24862112a_080_a?$cat$" alt="Magical Thinking Overdyed Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=24862112a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=24862112a&parentid=SALE_APT">Magical Thinking Overdyed Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$44.99</span> <span class="price-list">(was $74.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25161308&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25161308_030_a?$cat$" alt="Rectangle Braid Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25161308&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25161308&parentid=SALE_APT">Rectangle Braid Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99-$69.99</span> <span class="price-list">(was $69.99-$79.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25161308a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25161308a_080_a?$cat$" alt="Rectangle Braid Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25161308a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25161308a&parentid=SALE_APT">Rectangle Braid Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99-$69.99</span> <span class="price-list">(was $69.99-$79.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25750290&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25750290_004_a?$cat$" alt="Leopard Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25750290&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25750290&parentid=SALE_APT">Leopard Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99</span> <span class="price-list">(was $79.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=25750290&parentid=SALE_APT&color=004"><img src="/urban/images/swatches/25750290_004_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=25750290&parentid=SALE_APT&color=016"><img src="/urban/images/swatches/25750290_016_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25753310&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25753310_030_a?$cat$" alt="Magical Thinking Empire Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25753310&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25753310&parentid=SALE_APT">Magical Thinking Empire Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99-$109.99</span> <span class="price-list">(was $79.00-$189.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=25753310&parentid=SALE_APT&color=030"><img src="/urban/images/swatches/25753310_030_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=25753310&parentid=SALE_APT&color=040"><img src="/urban/images/swatches/25753310_040_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25758798&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25758798_095_a?$cat$" alt="Assembly Home Angle Block Tufted Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25758798&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25758798&parentid=SALE_APT">Assembly Home Angle Block Tufted Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$89.00</span> <span class="price-list">(was $209.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26116657&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26116657_049_a?$cat$" alt="Tonal Zigzag Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26116657&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26116657&parentid=SALE_APT">Tonal Zigzag Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$22.99-$109.99</span> <span class="price-list">(was $39.00-$189.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26116657&parentid=SALE_APT&color=049"><img src="/urban/images/swatches/26116657_049_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26116657&parentid=SALE_APT&color=008"><img src="/urban/images/swatches/26116657_008_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26352682&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26352682_030_a?$cat$" alt="Magical Thinking Jute Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26352682&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26352682&parentid=SALE_APT">Magical Thinking Jute Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$39.99-$119.99</span> <span class="price-list">(was $69.00-$199.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26352682&parentid=SALE_APT&color=030"><img src="/urban/images/swatches/26352682_030_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26352682&parentid=SALE_APT&color=004"><img src="/urban/images/swatches/26352682_004_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26352682&parentid=SALE_APT&color=105"><img src="/urban/images/swatches/26352682_105_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26427518&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26427518_095_a?$cat$" alt="You Are Here Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26427518&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26427518&parentid=SALE_APT">You Are Here Rug</a></h2>
+                    <h3 class="price">$12.99</h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26427724a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26427724a_080_a?$cat$" alt="Magical Thinking Foursquare Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26427724a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26427724a&parentid=SALE_APT">Magical Thinking Foursquare Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$40.99</span> <span class="price-list">(was $79.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26444653a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26444653a_024_a?$cat$" alt="Magical Thinking Geo Kansai Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26444653a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26444653a&parentid=SALE_APT">Magical Thinking Geo Kansai Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$44.99</span> <span class="price-list">(was $89.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26444679a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26444679a_041_a?$cat$" alt="Magical Thinking Tent Stripe Rug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26444679a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26444679a&parentid=SALE_APT">Magical Thinking Tent Stripe Rug</a></h2>
+                    <h3 class="price"><span class="price-sale">$44.99</span> <span class="price-list">(was $89.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=24703621&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/24703621_004_a?$cat$" alt="Magical Thinking Wanderer Pillow"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=24703621&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=24703621&parentid=SALE_APT">Magical Thinking Wanderer Pillow</a></h2>
+                    <h3 class="price"><span class="price-sale">$21.99</span> <span class="price-list">(was $39.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=24704553&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/24704553_004_a?$cat$" alt="Magical Thinking Mystic Pillow"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=24704553&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=24704553&parentid=SALE_APT">Magical Thinking Mystic Pillow</a></h2>
+                    <h3 class="price"><span class="price-sale">$24.99</span> <span class="price-list">(was $44.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26090027&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26090027_095_a?$cat$" alt="Plum & Bow Sequin Medley Pillow"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26090027&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26090027&parentid=SALE_APT">Plum & Bow Sequin Medley Pillow</a></h2>
+                    <h3 class="price"><span class="price-sale">$24.99</span> <span class="price-list">(was $44.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26422618&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26422618_095_a?$cat$" alt="Magical Thinking Diamond-Stripe Pillow"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26422618&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26422618&parentid=SALE_APT">Magical Thinking Diamond-Stripe Pillow</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $34.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=18267344b&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/18267344b_044_a?$cat$" alt="Chloe Gauze Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=18267344b&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=18267344b&parentid=SALE_APT">Chloe Gauze Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99-$19.99</span> <span class="price-list">(was $19.00-$29.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22534044a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22534044a_030_a?$cat$" alt="Draped Shade Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22534044a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22534044a&parentid=SALE_APT">Draped Shade Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $34.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22906986a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22906986a_050_a?$cat$" alt="Vine Flourish Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22906986a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22906986a&parentid=SALE_APT">Vine Flourish Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$21.99</span> <span class="price-list">(was $39.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22907042a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22907042a_024_a?$cat$" alt="Zigzag Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22907042a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22907042a&parentid=SALE_APT">Zigzag Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99-$29.99</span> <span class="price-list">(was $34.00-$49.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25082496a&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25082496a_004_a?$cat$" alt="Floral Medallion Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25082496a&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25082496a&parentid=SALE_APT">Floral Medallion Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $39.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25593229&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25593229_095_a?$cat$" alt="Magical Thinking Zebra Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25593229&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25593229&parentid=SALE_APT">Magical Thinking Zebra Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$22.99</span> <span class="price-list">(was $44.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25951872&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25951872_004_a?$cat$" alt="Magical Thinking Triangle-Notch Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25951872&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25951872&parentid=SALE_APT">Magical Thinking Triangle-Notch Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $49.00-$59.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26146423&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26146423_049_a?$cat$" alt="Tonal Zigzag Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26146423&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26146423&parentid=SALE_APT">Tonal Zigzag Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99-$29.99</span> <span class="price-list">(was $34.00-$49.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26146423&parentid=SALE_APT&color=049"><img src="/urban/images/swatches/26146423_049_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26146423&parentid=SALE_APT&color=008"><img src="/urban/images/swatches/26146423_008_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26535658&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26535658_041_a?$cat$" alt="Magical Thinking Geo Kansai Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26535658&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26535658&parentid=SALE_APT">Magical Thinking Geo Kansai Curtain</a></h2>
+                    <h3 class="price"><span class="price-sale">$24.99</span> <span class="price-list">(was $49.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26535658&parentid=SALE_APT&color=041"><img src="/urban/images/swatches/26535658_041_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26535658&parentid=SALE_APT&color=024"><img src="/urban/images/swatches/26535658_024_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26536615&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26536615_072_a?$cat$" alt="Magical Thinking Mixed Floral Curtain"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26536615&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26536615&parentid=SALE_APT">Magical Thinking Mixed Floral Curtain</a></h2>
+                    <h3 class="price">$24.99</h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26597609&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26597609_095_a?$cat$" alt="Magical Thinking Flora Punch Window Panel"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26597609&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26597609&parentid=SALE_APT">Magical Thinking Flora Punch Window Panel</a></h2>
+                    <h3 class="price">$39.99</h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=24954273&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/24954273_030_a?$cat$" alt="Geometric Wood Multi Wall Hook"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=24954273&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=24954273&parentid=SALE_APT">Geometric Wood Multi Wall Hook</a></h2>
+                    <h3 class="price"><span class="price-sale">$14.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26192146&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26192146_100_a?$cat$" alt="Cut Glass Wire Lamp"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26192146&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26192146&parentid=SALE_APT">Cut Glass Wire Lamp</a></h2>
+                    <h3 class="price"><span class="price-sale">$49.99</span> <span class="price-list">(was $79.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25467713&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25467713_027_a?$cat$" alt="Spinning Gate Jewelry Stand"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25467713&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25467713&parentid=SALE_APT">Spinning Gate Jewelry Stand</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $39.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25828880&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25828880_066_a?$cat$" alt="Glass Heart Box"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25828880&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25828880&parentid=SALE_APT">Glass Heart Box</a></h2>
+                    <h3 class="price">$9.99</h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26082974&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26082974_027_a?$cat$" alt="Brass Flower Jewelry Box"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26082974&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26082974&parentid=SALE_APT">Brass Flower Jewelry Box</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $29.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26225250&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26225250_050_a?$cat$" alt="Plum & Bow Glitter Tray"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26225250&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26225250&parentid=SALE_APT">Plum & Bow Glitter Tray</a></h2>
+                    <h3 class="price">$7.99</h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26497297&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26497297_010_a?$cat$" alt="Pressed Flower Octagon Jewelry Box"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26497297&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26497297&parentid=SALE_APT">Pressed Flower Octagon Jewelry Box</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $16.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26677716&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26677716_034_a?$cat$" alt="Plum & Bow Floral Paper Jewelry Box"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26677716&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26677716&parentid=SALE_APT">Plum & Bow Floral Paper Jewelry Box</a></h2>
+                    <h3 class="price">$24.99</h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26677716&parentid=SALE_APT&color=034"><img src="/urban/images/swatches/26677716_034_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26677716&parentid=SALE_APT&color=046"><img src="/urban/images/swatches/26677716_046_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=23955602&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/23955602_020_a?$cat$" alt="Reclaimed Wood Locker Shelf"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=23955602&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=23955602&parentid=SALE_APT">Reclaimed Wood Locker Shelf</a></h2>
+                    <h3 class="price"><span class="price-sale">$69.99</span> <span class="price-list">(was $89.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25929514&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25929514_020_a?$cat$" alt="Carved Wood Wall Shelf"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25929514&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25929514&parentid=SALE_APT">Carved Wood Wall Shelf</a></h2>
+                    <h3 class="price"><span class="price-sale">$24.99</span> <span class="price-list">(was $34.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26030346&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26030346_000_a?$cat$" alt="Mason Jar Wine Glass"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26030346&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26030346&parentid=SALE_APT">Mason Jar Wine Glass</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $18.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26635557&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26635557_002_a?$cat$" alt="Pop Phrase Pint Glass"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26635557&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26635557&parentid=SALE_APT">Pop Phrase Pint Glass</a></h2>
+                    <h3 class="price"><span class="price-sale">$5.99</span> <span class="price-list">(was $8.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=27127026&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/27127026_000_a?$cat$" alt="Sexy Lady Pint Glass"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=27127026&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=27127026&parentid=SALE_APT">Sexy Lady Pint Glass</a></h2>
+                    <h3 class="price"><span class="price-sale">$4.99</span> <span class="price-list">(was $8.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=27406875&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/27406875_066_a?$cat$" alt="I F'n Love You Flask"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=27406875&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=27406875&parentid=SALE_APT">I F'n Love You Flask</a></h2>
+                    <h3 class="price"><span class="price-sale">$11.99</span> <span class="price-list">(was $18.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=21039433&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/21039433_070_a?$cat$" alt="Heavy Metal Guitar Bottle Opener"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=21039433&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=21039433&parentid=SALE_APT">Heavy Metal Guitar Bottle Opener</a></h2>
+                    <h3 class="price"><span class="price-sale">$4.99</span> <span class="price-list">(was $8.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=21094990&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/21094990_004_a?$cat$" alt="Freeze! Ice Tray"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=21094990&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                    <p class="category-product-video"><a href="http://www.youtube.com/watch?v=cIOek8QxlF8"><img src="/urban/images/2007_holiday/video_icon.png" alt="Video"></a></p>
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=21094990&parentid=SALE_APT">Freeze! Ice Tray</a></h2>
+                    <h3 class="price"><span class="price-sale">$7.99</span> <span class="price-list">(was $12.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=23061104&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/23061104_000_a?$cat$" alt="Banana Flask"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=23061104&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                    <p class="category-product-video"><a href="http://www.youtube.com/watch?v=tphKg0o1v2g"><img src="/urban/images/2007_holiday/video_icon.png" alt="Video"></a></p>
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=23061104&parentid=SALE_APT">Banana Flask</a></h2>
+                    <h3 class="price"><span class="price-sale">$16.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=24839581b&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/24839581b_080_a?$cat$" alt="Fantastic Plastic Printed Flask"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=24839581b&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=24839581b&parentid=SALE_APT">Fantastic Plastic Printed Flask</a></h2>
+                    <h3 class="price"><span class="price-sale">$7.99</span> <span class="price-list">(was $18.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25169178&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25169178_000_a?$cat$" alt="Kikkerland Golf Mug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25169178&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25169178&parentid=SALE_APT">Kikkerland Golf Mug</a></h2>
+                    <h3 class="price"><span class="price-sale">$7.99</span> <span class="price-list">(was $16.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25486978&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25486978_000_a?$cat$" alt="Luge Ice Tray"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25486978&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25486978&parentid=SALE_APT">Luge Ice Tray</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25608019&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25608019_007_a?$cat$" alt="Mesh Spice Rack"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25608019&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25608019&parentid=SALE_APT">Mesh Spice Rack</a></h2>
+                    <h3 class="price"><span class="price-sale">$14.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25707860&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25707860_000_a?$cat$" alt="Binocular Flask"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25707860&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25707860&parentid=SALE_APT">Binocular Flask</a></h2>
+                    <h3 class="price"><span class="price-sale">$12.99</span> <span class="price-list">(was $28.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25845702&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25845702_000_a?$cat$" alt="Glass Skull Decanter"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25845702&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25845702&parentid=SALE_APT">Glass Skull Decanter</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25981754&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25981754_000_a?$cat$" alt="Skull Shot Glass"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25981754&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25981754&parentid=SALE_APT">Skull Shot Glass</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $12.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=25981895&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/25981895_060_a?$cat$" alt="Boozie Bear Flask"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=25981895&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=25981895&parentid=SALE_APT">Boozie Bear Flask</a></h2>
+                    <h3 class="price"><span class="price-sale">$10.99</span> <span class="price-list">(was $14.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26084723&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26084723_010_a?$cat$" alt="Oversized Ice Mold"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26084723&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26084723&parentid=SALE_APT">Oversized Ice Mold</a></h2>
+                    <h3 class="price"><span class="price-sale">$7.99</span> <span class="price-list">(was $14.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26116038&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26116038_072_a?$cat$" alt="Simpsons Fat And Happy Mug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26116038&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26116038&parentid=SALE_APT">Simpsons Fat And Happy Mug</a></h2>
+                    <h3 class="price"><span class="price-sale">$11.99</span> <span class="price-list">(was $16.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26116525&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26116525_010_a?$cat$" alt="I Bitch Mug"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26116525&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26116525&parentid=SALE_APT">I Bitch Mug</a></h2>
+                    <h3 class="price"><span class="price-sale">$3.99</span> <span class="price-list">(was $12.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26228536&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26228536_000_a?$cat$" alt="Wine Tasting Kit"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26228536&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26228536&parentid=SALE_APT">Wine Tasting Kit</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $24.95)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26231605&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26231605_001_a?$cat$" alt="Cork Creature Kit"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26231605&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26231605&parentid=SALE_APT">Cork Creature Kit</a></h2>
+                    <h3 class="price"><span class="price-sale">$4.99</span> <span class="price-list">(was $14.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=26231605&parentid=SALE_APT&color=001"><img src="/urban/images/swatches/26231605_001_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26231605&parentid=SALE_APT&color=002"><img src="/urban/images/swatches/26231605_002_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=26231605&parentid=SALE_APT&color=003"><img src="/urban/images/swatches/26231605_003_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26232173&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26232173_000_a?$cat$" alt="Tabasco Bottle Opener"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26232173&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26232173&parentid=SALE_APT">Tabasco Bottle Opener</a></h2>
+                    <h3 class="price"><span class="price-sale">$5.99</span> <span class="price-list">(was $12.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26300764&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26300764_000_a?$cat$" alt="Abbey Road Coaster - Set Of 6"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26300764&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26300764&parentid=SALE_APT">Abbey Road Coaster - Set Of 6</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $20.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26357962&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26357962_000_a?$cat$" alt="Pickle Corkscrew"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26357962&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26357962&parentid=SALE_APT">Pickle Corkscrew</a></h2>
+                    <h3 class="price"><span class="price-sale">$3.99</span> <span class="price-list">(was $14.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26516419&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26516419_095_a?$cat$" alt="Pop Tart-On-A-Stick Mini-Pastry Maker"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26516419&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26516419&parentid=SALE_APT">Pop Tart-On-A-Stick Mini-Pastry Maker</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $29.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26583070&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26583070_060_a?$cat$" alt="Ketchup Kritter Bottle Cap-Cover"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26583070&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26583070&parentid=SALE_APT">Ketchup Kritter Bottle Cap-Cover</a></h2>
+                    <h3 class="price"><span class="price-sale">$2.99</span> <span class="price-list">(was $5.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26597765&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26597765_010_a?$cat$" alt="Gator Measuring Spoon - Set Of 4"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26597765&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26597765&parentid=SALE_APT">Gator Measuring Spoon - Set Of 4</a></h2>
+                    <h3 class="price"><span class="price-sale">$12.99</span> <span class="price-list">(was $24.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=26636324&parentid=SALE_APT"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/26636324_002_a?$cat$" alt="Movie Pint Glass - Set Of 2"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=26636324&parentid=SALE_APT"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=26636324&parentid=SALE_APT">Movie Pint Glass - Set Of 2</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $18.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+        </div>                        
+                                
+        <!-- Category pagination: SALE_APT -->
+        <div class="category-pagination">
+             <p id="category-pagination-slot"></p>
+
+            <p><span class="category-pagination-page-size"><a href="?&id=SALE_APT&itemCount=20">Show 20 per page</a></span> <span class="category-pagination-pages"><a href="?&id=SALE_APT&startValue=1">&larr;</a> 2 of 5 <a href="?&id=SALE_APT&startValue=161">&rarr;</a></span></p>
+        </div>
+        
+        <!-- Recommended/related products for SALE_APT -->
+        <div id="bn_justforyou">
+        </div>
+    </div>
+    
+    <!-- Faceted navigation: SALE_APT -->
+    <div id="category-nav" class="newFacets ">
+
+    
+    <!-- Category navigation: SALE -->
+        
+        <!-- Categories: SALE -->
+        
+            
+<div id="category-nav-categories" class="category-nav-section">
+
+                <h3 class="topLevelCategory"><a href="/urban/catalog/category.jsp?id=SALE_APT">Apartment Sale<span>reset<BR /></span></a></h3>
+
+
+                
+<ul>
+                                        <li><a href="/urban/catalog/category.jsp?id=SALE_APT_ELECENTER">Electronics + Entertainment</a></li>
+                        <li><a href="/urban/catalog/category.jsp?id=SALE_APT_FURNDEC">Furnish + Decorate</a></li>
+                    </ul>
+                    </div>
+        
+        <!-- Faceted navigation: facets -->
+        <div id="category-nav-facets" class="category-nav-section">
+            <h2>Refine By</h2>
+
+            
+
+
+                    
+            <!-- Faceted navigation: skusize_normalized -->
+            <div id="category-nav-facet-size" class="category-nav-facet">
+                <h3>Size</h3>
+                <ul>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=twin"><span>TWIN</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=full2fqueen"><span>FULL/QUEEN</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=king"><span>KING</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=220x203"><span>2 X 3</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=320x205"><span>3 X 5</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=420x206"><span>4 X 6</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=520x207"><span>5 X 7</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=820x2010"><span>8 X 10</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=5220x2063"><span>52 X 63</span></a></li>
+                    <li><a href="?&id=SALE_APT&skusize_normalized=5220x2096"><span>52 X 96</span></a></li>
+                </ul>
+            </div>
+            
+            <!-- Faceted navigation: skucolor_normalized -->
+            <div id="category-nav-facet-color" class="category-nav-facet">
+                <h3>Color</h3>
+                <ul>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=assorted"><span>Assorted</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=blue"><span>Blue</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=grey"><span>Grey</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=green"><span>Green</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=black"><span>Black</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=metallic"><span>Metallic</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=pink"><span>Pink</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=red"><span>Red</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=purple"><span>Purple</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=orange"><span>Orange</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=white"><span>White</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=brown"><span>Brown</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=beige"><span>Beige</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=animal"><span>Animal</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=yellow"><span>Yellow</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=silver"><span>Silver</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=gold"><span>Gold</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=mint"><span>Mint</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=clear"><span>Clear</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=black202620white"><span>Black & white</span></a></li>
+                    <li><a href="?&id=SALE_APT&skucolor_normalized=alphabet"><span>Alphabet</span></a></li>
+                </ul>
+            </div>
+            
+            <!-- Faceted navigation: default_price_min/default_price_max -->
+            <div id="category-nav-facet-price" class="category-nav-facet">
+                <h3>Price</h3>
+                <div id="category-nav-facet-price-range"></div>
+                <p><span id="category-nav-facet-price-label"></span><input type="hidden" name="category-nav-facet-price-min" value="1.99"><input type="hidden" name="category-nav-facet-price-max" value="200.99"><input type="hidden" name="category-nav-facet-price-low" value="1.99"><input type="hidden" name="category-nav-facet-price-high" value="200.99"><input type="hidden" name="category-nav-facet-price-href" value="?&id=SALE_APT&itemCount=80&priceMin=0.0&priceMax=0.0&priceLow=0.0&priceHigh=0.0"></p>
+            </div>
+            
+            <!-- Faceted navigation: brand -->
+            <div class="category-nav-facet">
+                <h3>brand</h3>
+                <ul>
+                    <li><a href="?&id=SALE_APT&brand=assembly20home"><span>Assembly Home</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=california20headphone20company"><span>California Headphone Company</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=isaac20lin"><span>Isaac Lin</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=kikkerland"><span>Kikkerland</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=kreme"><span>Kreme</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=lisa20frank"><span>Lisa Frank</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=lomography"><span>Lomography</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=magical20thinking"><span>Magical Thinking</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=native20union"><span>Native Union</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=plum202620bow"><span>Plum & Bow</span></a></li>
+                    <li><a href="?&id=SALE_APT&brand=wesc"><span>WeSC</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Category video -->
+    <div id="category-video"></div>
+    
+    <!-- Category product snapshot -->
+    <div id="category-snapshot"></div>
+    
+    <!-- Category Coremetrics page view tag -->
+    <script>
+    		
+        jQuery(document).ready(function() {
+        	
+        			cmCreatePageviewTag("SALE_APT:PAGE 2", null, "SALE_APT", null, null, "-_--_--_--_-");
+        		
+        	
+        });
+    
+    </script>
+    			
+		                            
+                        </div>    
+
+<!-- Dotomi: "abandon page" tag -->
+<script>
+
+    var dtmSrc = window.location.protocol + "//login.dotomi.com/ucm/UCMController?"+"dtm_com=28&dtm_fid=101&dtm_cid=2369&dtm_cmagic=ab8aa0&dtm_format=5";
+    var dtmTag = new Array();
+    dtmTag.cli_promo_id = "3";
+    dtmTag.dtmc_department = "Sale";
+    dtmTag.dtmc_category = "Apartment Sale";
+    dtmTag.dtmc_zip_code = "97201";
+    dtmTag.dtm_user_id = "";
+    dtmTag.dtmc_customer_type = "New";
+    dtmTag.dtmc_ref = document.referrer;
+    dtmTag.dtmc_loc = document.location.href;
+    for (var item in dtmTag) {
+        if (typeof dtmTag[item] != "function" && typeof dtmTag[item] != "object") {
+            dtmSrc += "&" + item + "=" + escape(dtmTag[item]);
+        }
+    }
+    setTimeout("timeOutDotomi()", 2000);
+    document.write("<div id=\"dtmdiv\" style=\"display: none;\"><iframe name=\"response_frame\" src=\"" + dtmSrc + "\"></iframe></div>");
+    
+    function timeOutDotomi() {
+        document.getElementById("dtmdiv").innerHTML = "";
+    }
+
+</script>
+
+<script charset="utf-8" type="text/javascript">
+
+    var richData = new Object();
+
+    </script>
+
+    <script src="//media.richrelevance.com/rrserver/js/1.0/p13n.js" defer></script>
+    
+    <script charset="utf-8" type="text/javascript">
+        
+        // variables on all pages
+        richData.environment = "recs";
+        richData.userID = "_PHL1967545337";
+        richData.pageType = "3";
+        richData.apiKey = "0e21b9671a36a65a";
+    
+        // order complete
+        richData.orderNumber = "";
+
+        // search
+        richData.searchPhrase = "";
+        // richData.searchIDs is declared above
+
+        // product detail
+        richData.productID = "";
+        richData.productName = "";
+
+        // category
+        richData.categoryID = "SALE_APT";
+        richData.categoryName = "Apartment Sale";
+
+    </script>
+
+    <!-- Rich Relevance -->
+    <script src="/urban/js/rich.js" defer></script> 
+    
+
+<script type="text/javascript">
+
+
+
+var allCookies = getCookies();
+var sessionID = allCookies.JSESSIONID;
+    
+var utag_data = {
+	
+			customer_id : "",
+			customer_type : "New",
+			customer_address_zip : "97201",
+			category_id : "SALE_APT",
+			category_name: "Apartment Sale",
+			subcategory_id: "",
+			subcategory_name: "",
+			department : "Sale",
+			page_id : "",
+			page_type : "category",
+			promo_id : "3",
+			site_version : "Desktop Site",
+			session_id    : sessionID,
+			browse_refinement_type : [""],   
+			browse_refinement_value : [""] 
+		
+}
+</script>
+
+<script type="text/javascript">
+	(function(a,b,c,d){
+	a='//tags.tiqcdn.com/utag/urbanoutfitters/uo-us/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+	a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+	})();
+</script>
+
+<!-- Utility nav -->
+<div id="utility">
+    <div id="utility-nav">
+	
+	<div id="utility_cart">
+        <p id="bagTextLink" class="emptyCart">
+                        	<a href="/urban/checkout/cart.jsp" id="inlineCartLink" class="emptyCart">
+                        	Shopping Bag</a>
+                        </p>
+                        <span id="numUtilityCartItems"></span>
+                    </div>
+    <div id="utility_account">
+        <ul>
+        	<li>
+		            	<h5>
+		            		<a href="/urban/user/login_order_status.jsp">Order Status</a></h5>
+		            </li>
+		            <li>
+		            	<h5>
+			                <form action="/urban/checkout/cart.jsp" name="headerlogoutForm" method="GET"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input><input value="-7332045374337572889" type="hidden" name="_dynSessConf"></input><input value="submit" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logout"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logout"><input value="/urban/catalog/category.jsp" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><a href="/urban/user/checkout_login.jsp?anonymouslogin=anonymouslogin&checkoutHeader=hide&formURL=/urban/checkout/cart.jsp" target="_top" id="utility_signin">
+							Sign-In
+						</a><input value="/urban/common/login_check.jsp" type="hidden" name="_DARGS"></input></form><form action="/urban/common/#" name="logout" method="GET"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input><input value="-7332045374337572889" type="hidden" name="_dynSessConf"></input><input value="" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logout"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logout"><input value="/urban/user/checkout_login.jsp" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logoutSuccessURL"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logoutSuccessURL"><input value="/urban/catalog/category.jsp" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><input value="/urban/common/login_check.jsp.1" type="hidden" name="_DARGS"></input></form></h5>
+		            </li>  
+		        </ul>
+    </div>
+    <div id="qualifierBg">
+    	<div id="qualifierCopy">
+    		<strong>Free Returns!</strong> & Free Shipping on all orders over $50</div>
+    </div>
+    
+    </div>
+
+
+</div>
+
+<!-- Footer -->
+<div id="footer">
+<div class="footer wrapper cf">
+  <div class="left footer-col" id="footer-col1">
+    <div class="footer-heading">OUR FAVORITE BRANDS</div>
+    <ul class="left third-width">
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=bdg">BDG</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=kimchi20blue">Kimchi Blue</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=silence202620noise">Silence and Noise</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=levi27s">Levi's</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=obey">Obey</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=vans">Vans</a></li>
+    </ul>
+    <ul class="left half-width">
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=hawkings20mcgill">Hawkings McGill</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=truly20madly20deeply">Truly Madly Deeply</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=cheap20monday">Cheap Monday</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=minnetonka">Minnetonka</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=jeffrey20campbell">Jeffrey Campbell</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=insight">Insight</a></li>
+    </ul>
+  </div>
+  <div class="left footer-col" id="footer-col2">
+    <div class="footer-heading">EVEN MORE UO</div>
+    <div class="cf">
+      <ul class="left third-width">
+        <li><a href="/urban/help/RequestCatalog.jsp">UO Catalog</a></li>
+        <li><a href="/urban/help/rss.jsp">Daily Updates</a></li>
+        <li><a href="/urban/catalog/category.jsp?navAction=jump&amp;id=SHOP_GIFTCARDS">Gift Cards</a></li>
+        <li><a href="/urban/help/help_emailpage.jsp">Email Sign-Up</a></li>
+      </ul>
+      <ul class="left half-width">
+        <li><a href="http://music.urbanoutfitters.com/radio.php?auto=on">UO Radio</a></li>
+        <li><a href="http://urbn.com">URBN.com</a></li>
+        <li><a href="/urban/common/careers.jsp">Work at Urban Outfitters</a></li>
+        <li><a href="http://space15twenty.com/">Space15Twenty</a></li>
+      </ul>
+    </div>
+    <div class="bottom cf">
+      <span class="footer-heading left">FOLLOW US</span>
+      <ul class="social left">
+        <li class="left"><a href="http://pinterest.com/urbanoutfitters/"><img src="/urban/images/pinterest.png" alt="Pinterest logo"></a></li>
+        <li class="left"><a href="https://www.facebook.com/urbanoutfitters"><img src="/urban/images/facebook.png" alt="Facebook logo"></a></li>
+        <li class="left"><a href="http://twitter.com/urbanoutfitters"><img src="/urban/images/twitter.png" alt="Twitter logo"></a></li>
+        <li class="left"><a href="http://urbanoutfitters.tumblr.com/"><img src="/urban/images/tumblr.png" alt="Tumblr logo"></a></li>
+        <li class="left"><a href="http://vimeo.com/urbanoutfitters"><img src="/urban/images/vimeo.png" alt="Vimeo logo"></a></li>
+        <li class="left"><a href="http://www.youtube.com/user/uotv"><img src="/urban/images/youtube.png" alt="YouTube logo"></a></li>
+        <li class="left"><a href="http://open.spotify.com/user/urbanoutfitters"><img src="/urban/images/spotify.png" alt="Spotify logo"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="left footer-col" id="footer-col3">
+    <div class="left half-width">
+      <div class="footer-heading">INFO</div>
+      <ul class="light-font">
+        <li><a href="/urban/help/helpinfo.jsp">Help</a></li>
+        <li id="needle_footer"></li>
+        <li><a href="http://www.urbanoutfitters.co.uk/" onclick="return(cmCreatePageElementTag('CHANGEREGION','SITEFOOTER'));">UO Europe</a></li>
+        <li><a href="/urban/help/store_locator.jsp">Store Locations</a></li>
+        <li><a href="/urban/help/privacy_security.jsp">Privacy Policy</a></li>
+        <li><a href="/urban/help/terms_of_use.jsp">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div class="left">
+      <div class="footer-heading">HQ</div>
+      <p class="light-font">
+      <span>&copy; 2013 UrbanOutfitters.com</span><br>
+      <span>All Rights Reserved</span><br>
+      <span><a href="http://urbn.com/doc/California-Transparency-in-Supply-Chain-Act-URBN.pdf" target="_blank">CA Notice</a></span><br>
+      <span>1.800.282.2200</span>
+      </p>
+      <br>
+      <div class="light-font">We Accept: <img id="paypal-icon" src="/urban/images/paypal.png" alt="PayPal logo"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Needle -->
+<script>
+
+    Needle = {
+        onload: window.onload
+    };
+    
+    window.onload = function() {
+        var e = document.createElement("script");
+        e.async = true;
+        e.src = document.location.protocol + "//urbanoutfitters.needle.com/needle_service.js";
+        document.body.appendChild(e);
+        if (typeof Needle.onload != "undefined" && Needle.onload !== null) {
+            Needle.onload();
+        }
+    };
+
+</script>
+
+<!-- Baynote -->
+<script src="/urban/js/baynote.js" defer></script> 
+
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>
+
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: "135847173361",
+            status: true,
+            cookie: true,
+            xfbml: true
+        });
+    };
+
+    // Load the SDK Asynchronously
+    (function(d){
+       var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       ref.parentNode.insertBefore(js, ref);
+     }(document));
+
+</script>
+
+<!-- Channel Advisor -->
+<script>
+
+    document.write("<img src=\"" + document.location.protocol + "//tracking.searchmarketing.com/welcome.asp?SMCID=53000704&x=" + escape(document.referrer) + "\" width=\"1\" height=\"1\">");
+
+</script>
+</html>

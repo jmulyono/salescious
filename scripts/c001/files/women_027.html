@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<meta charset="ISO-8859-1">
+
+<!--
+
+    Data center: reno
+    Server name: app07.ecomm.reno.urbanout.com-store03
+    Release tag: tags/UINT2013010301
+    Manifest Trac: #5723 
+
+-->
+
+<title>Women's Sale - Urban Outfitters</title>
+
+<!-- Content description -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="canonical" href="http://www.urbanoutfitters.com/urban/catalog/category.jsp?id=SALE_W">
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- RSS autodiscovery -->
+<link rel="alternate" type="application/rss+xml" href="http://feeds2.feedburner.com/uorss" title="UO Daily Updates">
+
+<!-- Crawling/caching instructions -->
+<meta name="robots" content="noarchive">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+
+<!-- Shared stylesheets -->
+<link rel="stylesheet" type="text/css" media="all" href="/urban/css/common.css">
+<link rel="stylesheet" type="text/css" media="all" href="/urban/css/baynote.css">
+
+<!-- Shared scripts -->
+<script src="/urban/js/prototype.js"></script>
+<script src="/urban/js/scriptaculous.js"></script>
+<script src="/urban/js/jquery/jquery.js"></script>
+<script src="/urban/js/jquery/jquery-ui.js"></script>
+<script>
+
+    jQuery.noConflict();
+
+</script>
+<script src="/urban/js/common.js"></script>
+<script src="/urban/js/functions.js"></script>
+<script src="/urban/js/scripts.js"></script>
+<script src="/urban/js/instantsearch.js"></script>
+
+
+<!-- Monetate (v6) -->
+<script type="text/javascript">
+
+    var monetateT = new Date().getTime();
+    (function() {
+        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = "//b.monetate.net/js/1/a-da93a377/p/urbanoutfitters.com/" + Math.floor((monetateT + 2308727) / 3600000) + "/g";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+    })();
+
+</script>
+
+<!-- Coremetrics -->
+<script src="//libs.coremetrics.com/eluminate.js"></script>
+<script src="/urban/js/coremetrics.js"></script>
+<script>
+
+    jQuery(document).ready(function() {
+        cmSetClientID("90052453", false, "www2.urbanoutfitters.com", "urbanoutfitters.com");
+        cmSetupOther({
+            "cm_TrackImpressions": ""
+        });
+        cmCreatePageElementTag("reno","DATACENTER");
+    });
+
+</script>
+
+<!-- Category-specific CSS and JS -->
+<link rel="stylesheet" media="all" href="/urban/css/catalog/category.css">
+<script src="/urban/js/catalog/category.js"></script>
+<script src="/urban/js/swfobject.js"></script>
+
+<!-- Snapshot-specific CSS and JS -->
+<link rel="stylesheet" media="all" href="/urban/css/catalog/snapshot.css" />
+<script src="/urban/js/catalog/snapshot.js"></script>
+
+<!-- Header -->
+<div id="header">
+    
+    <!-- Header search input -->
+    <div id="header-search">
+        <form method="GET" action="/urban/catalog/search.jsp">
+            <p><input id="header-search-query" type="search" name="q" value="" placeholder="SEARCH"> <input id="header-search-submit" type="submit" value="Go"></p>
+        </form>
+    </div>
+    
+    <!-- Header nav -->
+    <div id="header-nav">
+        <h2 id="header-nav-home"><a href="/urban/index.jsp"><img src="/urban/images/urban-outfitters.png" alt="Urban Outfitters"></a></h2>
+        <div id="header-nav-categories">
+            <h2 id="header-nav-womens"><a href="/urban/catalog/category.jsp?id=WOMENS"><span>Women's</span></a></h2>
+            <h2 id="header-nav-mens"><a href="/urban/catalog/category.jsp?id=MENS"><span>Men's</span></a></h2>
+            <h2 id="header-nav-apartment"><a href="/urban/catalog/category.jsp?id=APARTMENT"><span>Apartment</span></a></h2>
+            <h2 id="header-nav-sale"><a class="selected" href="/urban/catalog/category.jsp?id=SALE"><span>Sale</span></a></h2>
+            <h2 id="header-nav-general"><a href="/urban/catalog/category.jsp?id=GENERAL_CATEGORY"><span>Gifts</span></a></h2>
+        </div>
+        <h2 id="header-nav-blog"><a href="http://blog.urbanoutfitters.com/"><span>Blog</span></a></h2>
+    </div>
+    
+    <!-- Header subnav -->
+    <div id="header-subnav">
+<script type="text/javascript">
+
+(function($) {
+	$(document).ready(function() {
+			
+		/*  Update homepage header */
+		
+			var ranNum = Math.floor(Math.random()*5) + 1;
+			$("div#header-nav h2#header-nav-home a img").attr("src", "/urban/emails/urban_outfitters" + ranNum + ".png");
+
+		/* end homepage header */
+
+		/* Drop Down Menu */
+		$("#header-nav-categories h2").mouseover(function(){
+		  navID = "#" + $(this).attr("id") + "-subnav";
+		  headerID = $(this).children();
+		  subnavHeight = $(navID).height();
+		  
+		  $(".subnavTwoColList").hide();
+		  $(navID).show();
+		  $("#header-subnav-wrapper").stop(true, false).animate({ "height" : subnavHeight }, 200);
+		});
+		
+		$(".subnavTwoColList").mouseover(function() {
+		  $(headerID).addClass("blue");
+		  $("#header-subnav-wrapper").stop(true, false).animate({ "height" : subnavHeight }, 200);
+		}); 
+		
+	    $("#header-nav-categories").mouseout(function(){
+	      $("#header-subnav-wrapper").stop(true, false).animate({ "height" : "0" }, 500);
+	    });
+	    
+		$(".subnavTwoColList").mouseout(function() {
+		  $(headerID).removeClass("blue");
+	      
+	      $("#header-subnav-wrapper").stop(true, false).animate({ "height" : "0" }, 500);
+		}); 
+	});
+})(jQuery);
+</script>
+
+<style type="text/css">
+
+div#header-nav h2 {
+	padding: 0 0 20px;
+	background: transparent;
+}
+
+div#header-nav-categories {
+  width: 400px;
+}
+
+#header-subnav-wrapper {
+  position: absolute;
+	top: 124px;
+	left: 248px;
+}
+
+#header-subnav-wrapper .subnavTwoColList {
+	width: 466px;
+	overflow: hidden;
+	border: none;
+	background: #ffffff;
+	z-index: 10000;
+	filter: alpha(opacity=96);
+	opacity: 0.96;
+	font: normal 12px "GRD Medium", "Helvetica Neue", sans-serif;
+	padding: 0 0 20px;
+	display: none;
+}
+
+#header-subnav-wrapper .subnavList {
+	margin: 0px auto;
+	padding: 0 0 20px;
+	display: none;
+	overflow: hidden; 
+}
+
+#header-subnav-wrapper a {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	overflow: hidden;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+
+#header-subnav-wrapper div.subnavTwoColList a:hover {
+	text-decoration: underline;
+}
+#header-subnav-wrapper div.subnavTwoColList a.parent {
+	text-transform: uppercase !important;
+	color: #000000 !important;
+	letter-spacing: 1px;
+	font: normal 12px "GRD Medium", "Helvetica Neue", sans-serif;
+}
+
+#header-subnav-wrapper div.subnavTwoColList a.parent.static:hover {
+	text-decoration: underline !important;
+	cursor: default !important;
+}
+
+#header-subnav-wrapper div.subnavTwoCol-column {
+
+	display: block;
+	float: left;
+	width: 184px;
+	overflow: hidden;
+	padding: 20px 1px 20px 36px;
+}
+
+#header-subnav-wrapper div.subnavTwoCol-column p {
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+}
+
+.subnavSpaced {
+    margin-top: 10px !important;
+}
+
+.blue {
+	color: #0000FF !important;
+}
+
+div#header-nav h2#header-nav-general {
+  left: 285px;
+}
+
+#header-nav-general a {
+}
+
+#header-nav-general span {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Header nav from commmon.css */
+div#header-nav {
+    width: 960px;
+    position: relative;
+    height: 124px;
+}
+
+div#header-nav h2 {
+    font: normal 12px "GRD Medium", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+}
+
+div#header-nav-categories {
+    width: 336px;
+    height: 26px;
+    position: absolute;
+    top: 96px;
+    left: 230px;
+}
+
+div#header-nav h2#header-nav-home {
+    top: 44px;
+    left: 252px;
+}
+
+#header-nav-home a img {
+/*  height: 38px;
+    width: auto; */
+}
+
+div#header-nav h2#header-nav-womens {
+    left: 0;
+}
+
+div#header-nav h2#header-nav-mens {
+    left: 100px;
+}
+
+div#header-nav h2#header-nav-apartment {
+    left: 173px;
+}
+
+div#header-nav h2#header-nav-general {
+    left: 293px;
+}
+
+div#header-nav h2#header-nav-sale {
+    left: 361px;
+}
+
+div#header-nav h2#header-nav-blog {
+    top: 96px;
+    left: 650px;
+}
+
+div#header-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 2px;
+}
+
+h2#header-nav-sale a {
+    color: rgb(255, 0, 0);
+}
+
+div#header-nav a:hover, div#header-nav a.selected, h2#header-nav-sale a:hover, h2#header-nav-sale a.selected {
+    color: rgb(0, 0, 255);
+}
+
+
+
+
+
+
+
+
+/* old gift code */
+.gift_anchor:hover {
+	cursor: default;
+	text-decoration: underline !important;
+}
+
+
+</style>
+
+
+<div id="header-subnav-wrapper" class="">
+	<div id="header-nav-womens-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+
+			<a href="/urban/catalog/category.jsp?id=W_NEWARRIVALS" class="parent">New Arrivals</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_ONLINEEX" class="parent subnavSpaced">Online Exclusives</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_APP_DRESSES" class="parent subnavSpaced">Dresses</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_APP_SWEATERS" class="parent subnavSpaced">Sweaters</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_TOPS" class="parent subnavSpaced">Tops</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_OUTERWEAR" class="parent subnavSpaced">Jackets + Blazers</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_BOTTOMS" class="parent subnavSpaced">Bottoms</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_APP_VINTAGE" class="parent subnavSpaced">Vintage</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_LOUNGE" class="parent subnavSpaced">Lounge</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_INTIMATES" class="parent subnavSpaced">Intimates + Tights</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_APP_SWIMWEAR" class="parent subnavSpaced">Swim</a>
+		</div>
+		<div class="subnavTwoCol-column">
+
+			<a href="/urban/catalog/category.jsp?id=WOMENS_SHOES" class="parent">Shoes</a>
+
+			<a href="/urban/catalog/category.jsp?id=W_BEAUTY" class="parent subnavSpaced">Beauty</a>
+
+			<a href="/urban/catalog/category.jsp?id=WOMENS_ACCESSORIES" class="parent subnavSpaced">Accessories</a>
+						
+			<a class="parent static subnavSpaced">Collections</a>
+				<a href="/urban/catalog/category.jsp?id=W_DESIGNEDBY" class="child">Designed By</a>
+				<a href="/urban/catalog/category.jsp?id=W_COLL_EARLYSPRING" class="child">Spring Lookbook</a>
+				<a href="/urban/catalog/category.jsp?id=W_EYELET" class="child">Trend: Eyelet</a>
+				<a href="/urban/catalog/category.jsp?id=W_CURTISKULIG" class="child">Curtis Kulig</a>
+				<a href="/urban/catalog/category.jsp?id=W_CUSTOMSHOPPE" class="child">Custom Tee Shop</a>
+			
+			<a href="/urban/catalog/category.jsp?id=SALE_W" class="parent subnavSpaced" style="color:#ff0000 !important">Sale</a>
+
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+
+		</div>
+	</div>
+
+	<div id="header-nav-mens-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+			
+			<a href="/urban/catalog/category.jsp?id=M_NEWARRIVALS" class="parent ">New Arrivals</a>
+			
+			<a href="/urban/catalog/category.jsp?id=M_ONLINEEX" class="parent subnavSpaced">Online Exclusives</a>
+
+			<a href="/urban/catalog/category.jsp?id=M_APP_SWEATERS" class="parent subnavSpaced">Sweaters</a>
+				
+			<a href="/urban/catalog/category.jsp?id=M_TOPS" class="parent subnavSpaced">Tops</a>
+	
+			<a href="/urban/catalog/category.jsp?id=M_OUTERWEAR" class="parent subnavSpaced">Jackets + Blazers</a>
+			
+			<a href="/urban/catalog/category.jsp?id=M_BOTTOMS" class="parent subnavSpaced">Bottoms</a>
+			
+			<a href="/urban/catalog/category.jsp?id=M_VINTAGE" class="parent subnavSpaced">Vintage</a>		
+		</div>
+		<div class="subnavTwoCol-column">
+			<a href="/urban/catalog/category.jsp?id=MENS_SHOES" class="parent">Shoes</a>
+			
+			<a href="/urban/catalog/category.jsp?id=MENS_ACCESSORIES" class="parent subnavSpaced">Accessories</a>
+		
+			<a class="parent static subnavSpaced">Collections</a>
+				<a href="/urban/catalog/category.jsp?id=M_FEATUREDBRANDS" class="child">Featured Brands</a>
+				<a href="/urban/catalog/category.jsp?id=M_COLL_EARLYSPRING" class="child">Spring Lookbook</a>
+				<a href="/urban/catalog/category.jsp?id=M_CURTISKULIG1" class="child">Curtis Kulig</a>
+				<a href="/urban/catalog/category.jsp?id=M_CUSTOMSHOPPE" class="child">Custom Tee Shop</a>
+				
+			<a href="/urban/catalog/category.jsp?id=SALE_M" class="parent subnavSpaced" style="color:#ff0000 !important">Sale</a>
+
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+
+
+		</div>
+	</div>
+
+	<div id="header-nav-apartment-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+
+			<a href="/urban/catalog/category.jsp?id=A_NEWARRIVALS" class="parent">New Arrivals</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_ONLINEEX" class="parent subnavSpaced">Online Exclusives</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_DEC_BEDDING" class="parent subnavSpaced">Bedding</a>
+	
+			<a href="/urban/catalog/category.jsp?id=A_DECORATE" class="parent subnavSpaced">Room Accessories</a>
+
+			<a href="/urban/catalog/category.jsp?id=A_RUGPILCUR" class="parent subnavSpaced">Rugs, Curtains + Pillows</a>
+				
+			<a href="/urban/catalog/category.jsp?id=A_FURN_WALL" class="parent subnavSpaced">Wall Art</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_FURNITURE" class="parent subnavSpaced">Furniture</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_DINNERWARE" class="parent subnavSpaced">Kitchen + Bar</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_FURN_BATH" class="parent subnavSpaced">Bath</a>
+
+			<a href="/urban/catalog/category.jsp?id=A_VINTAGE" class="parent subnavSpaced">Vintage</a>
+
+		</div>
+		<div class="subnavTwoCol-column ">
+			<a href="/urban/catalog/category.jsp?id=A_MEDIA_GADGETS" class="parent" style="text-transform: none !important;">CASES, TECH + iLOVE</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_ENT_BOOKS_BOOK" class="parent subnavSpaced">Books</a>
+
+			<a href="/urban/catalog/category.jsp?id=A_ENT_BOOKS_STATIONERY" class="parent subnavSpaced">Notebooks + Desk Supplies</a>
+			
+			<a href="/urban/catalog/category.jsp?id=APARTMENT_MEDIA" class="parent subnavSpaced">Cameras + Film</a>
+			
+			<a href="/urban/catalog/category.jsp?id=APARTMENT_MUSIC" class="parent subnavSpaced">Music + Electronics</a>
+			
+			<a href="/urban/catalog/category.jsp?id=A_ENT_GAMES" class="parent subnavSpaced">Games, Toys + Fun Sh!t</a>
+			
+			<a class="parent static subnavSpaced">Collections</a>
+				<a href="/urban/catalog/category.jsp?id=A_BRANDS" class="child">Featured Brands</a>
+				<a href="/urban/catalog/category.jsp?id=A_CARDSHOP" class="child">Card Shop</a>
+				<a href="/urban/catalog/category.jsp?id=TRENDS_SPRING_APARTMENT" class="child">Spring Lookbook</a>
+				<a href="/urban/catalog/category.jsp?id=A_ORGANIZE" class="child">Get Organized</a>
+				<a href="/urban/catalog/category.jsp?id=A_CURTISKULIG" class="child">Curtis Kulig</a>
+				<a href="/urban/catalog/category.jsp?id=APT_BIKESHOP" class="child">Build Your Own Bike</a>
+				<a href="/urban/catalog/category.jsp?id=APT_PRINTSHOP" class="child">Print Shop</a>
+
+			<a href="/urban/catalog/category.jsp?id=SALE_APT" class="parent subnavSpaced" style="color:#ff0000 !important">Sale</a>
+
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+
+		</div>
+	</div>
+	
+	<div id="header-nav-sale-subnav" class="subnavTwoColList">
+		<div class="subnavTwoCol-column">
+			<a href="/urban/catalog/category.jsp?id=SALE_W" class="parent" style="color:#ff0000 !important">Women's Sale</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_DRESSES" class="child">Dresses</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_CLOTHING" class="child">Tops</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_CLOTHING_JACKETS" class="child">Jackets + Blazers</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_BOTTOMS" class="child">Bottoms</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_INTIMATES" class="child">Swim + Intimates</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_SHOES" class="child">Shoes</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_W_ACC" class="child">Accessories</a>
+				
+			<a href="/urban/catalog/category.jsp?id=SALE_APT" class="parent subnavSpaced" style="color:#ff0000 !important">Apartment Sale</a>
+
+		</div>
+		<div class="subnavTwoCol-column ">
+			<a href="/urban/catalog/category.jsp?id=SALE_M" class="parent" style="color:#ff0000 !important">Men's Sale</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_CLOTHING" class="child">Tops</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_CLOTHING_JACKETS" class="child">Jackets + Blazers</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_BOTTOMS" class="child">Bottoms</a>
+
+				<a href="/urban/catalog/category.jsp?id=SALE_M_SHOES" class="child">Shoes</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_M_ACC" class="child">Accessories</a>
+			
+			<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP" class="parent subnavSpaced">STOCK UP</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP_W" class="child">Women's</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP_M" class="child">Men's</a>
+				<a href="/urban/catalog/category.jsp?id=SALE_STOCKUP_A" class="child">Apartment</a>
+				
+			<a href="/urban/catalog/category.jsp?id=SHOP_GIFTCARDS" class="parent subnavSpaced">Gift Cards</a>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+<!-- Category: SALE_W -->
+<div id="category">   
+    
+    <!-- Request timestamp: Thu Jan 31 02:14:03 EST 2013  -->
+    <!-- Request query string: &id=SALE_W&startValue=2081 -->
+    
+		                                <!-- Content generated at Thu Jan 31 01:53:17 EST 2013 on app05.ecomm.reno.urbanout.com-store01 (Fredhopper: true) -->    
+    <!-- Request URL: http://www.urbanoutfitters.com/urban/catalog/category/category_content_memcached.jsp?&id=SALE_W&startValue=2081 -->
+    <!-- Category: SALE_W; Fredhopper: true; item count: ; start value: 2081; sort by:  -->                   
+                
+    <!-- Category content: SALE_W -->
+    <div id="category-content" class="category-template-alt5">
+        <div id="category-gateway">
+            <h1><span>Women's Sale</span></h1>
+            
+            <!-- External media content:  -->
+
+        </div>
+        
+        <!-- Category pagination: SALE_W -->
+        <div class="category-pagination">
+            <p class="category-pagination-sort"><select name="category-pagination-sort"><option value="?&id=SALE_W">Sort products by...</option><!-- <option value="?&id=SALE_W&sortBy=brandName">Brand A &rarr; Z</option><option value="?&id=SALE_W&sortBy=-brandName">Brand Z &rarr; A</option> --><option value="?&id=SALE_W&sortBy=price">Price &uarr;</option><option value="?&id=SALE_W&sortBy=-price">Price &darr;</option><option value="?&id=SALE_W&sortBy=-rating">Highest Rated</option><option value="?&id=SALE_W&sortBy=displayName">A &rarr; Z</option><option value="?&id=SALE_W&sortBy=-displayName">Z &rarr; A</option></select></p>
+            <p><span class="category-pagination-page-size"><a href="?&id=SALE_W&itemCount=20">Show 20 per page</a></span> <span class="category-pagination-pages"><a href="?&id=SALE_W&startValue=2001">&larr;</a> 27 of 27 <span>&rarr;</span></span></p>
+        </div>
+        
+        <!-- Category products: SALE_W -->
+        <div id="category-products">
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22706501&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22706501_070_a?$cat$" alt="A Peace Treaty Gold Kauwar Pendant"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22706501&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22706501&parentid=SALE_W">A Peace Treaty Gold Kauwar Pendant</a></h2>
+                    <h3 class="price"><span class="price-sale">$69.99</span> <span class="price-list">(was $120.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22700983&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22700983_060_a?$cat$" alt="Viveka Bergstrom Double Crystal Earring"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22700983&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22700983&parentid=SALE_W">Viveka Bergstrom Double Crystal Earring</a></h2>
+                    <h3 class="price"><span class="price-sale">$44.99</span> <span class="price-list">(was $68.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=22700983&parentid=SALE_W&color=060"><img src="/urban/images/swatches/22700983_060_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=22700983&parentid=SALE_W&color=030"><img src="/urban/images/swatches/22700983_030_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22700504&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22700504_001_a?$cat$" alt="Viveka Bergstrom Rectangle Ring"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22700504&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22700504&parentid=SALE_W">Viveka Bergstrom Rectangle Ring</a></h2>
+                    <h3 class="price"><span class="price-sale">$49.99</span> <span class="price-list">(was $78.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=22700504&parentid=SALE_W&color=001"><img src="/urban/images/swatches/22700504_001_s.png"></a></li>
+                        <li><a href="/urban/catalog/productdetail.jsp?id=22700504&parentid=SALE_W&color=010"><img src="/urban/images/swatches/22700504_010_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22690242&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22690242_023_a?$cat$" alt="Dolce Vita Marcel Loafer"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22690242&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22690242&parentid=SALE_W">Dolce Vita Marcel Loafer</a></h2>
+                    <h3 class="price"><span class="price-sale">$44.99</span> <span class="price-list">(was $69.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22550321&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22550321_030_a?$cat$" alt="Arno Sorel Solinotes Perfume"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22550321&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22550321&parentid=SALE_W">Arno Sorel Solinotes Perfume</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $30.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                    <ul class="category-product-swatches">
+                        <li><a href="/urban/catalog/productdetail.jsp?id=22550321&parentid=SALE_W&color=066"><img src="/urban/images/swatches/22550321_066_s.png"></a></li>
+                        <li><a class="selected" href="/urban/catalog/productdetail.jsp?id=22550321&parentid=SALE_W&color=030"><img src="/urban/images/swatches/22550321_030_s.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22510465&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22510465_018_a?$cat$" alt="Silky Printed Dress"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22510465&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22510465&parentid=SALE_W">Silky Printed Dress</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $59.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=22224505&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/22224505_066_a?$cat$" alt="Pins and Needles Lace Zip-Back Bustier"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=22224505&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=22224505&parentid=SALE_W">Pins and Needles Lace Zip-Back Bustier</a></h2>
+                    <h3 class="price"><span class="price-sale">$19.99</span> <span class="price-list">(was $39.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=21234950a&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/21234950a_040_a?$cat$" alt="Trompe L'Oeil Pencil Case"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=21234950a&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=21234950a&parentid=SALE_W">Trompe L'Oeil Pencil Case</a></h2>
+                    <h3 class="price"><span class="price-sale">$6.99</span> <span class="price-list">(was $12.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=21206685&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/21206685_001_a?$cat$" alt="VeridiAum Dark Heart Pendant Necklace"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=21206685&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=21206685&parentid=SALE_W">VeridiAum Dark Heart Pendant Necklace</a></h2>
+                    <h3 class="price"><span class="price-sale">$88.99</span> <span class="price-list">(was $110.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=21026539&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/21026539_079_a?$cat$" alt="BDG Printed Super Skinny Racerback Tank Top"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=21026539&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=21026539&parentid=SALE_W">BDG Printed Super Skinny Racerback Tank Top</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $18.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=20344636&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/20344636_001_a?$cat$" alt="Dara Ettinger Felicia Post Earring"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=20344636&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=20344636&parentid=SALE_W">Dara Ettinger Felicia Post Earring</a></h2>
+                    <h3 class="price"><span class="price-sale">$49.99</span> <span class="price-list">(was $75.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=18918557x&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/18918557x_034_a?$cat$" alt="Sparkle & Fade Easy Slip"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=18918557x&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=18918557x&parentid=SALE_W">Sparkle & Fade Easy Slip</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $20.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=18524868b&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/18524868b_019_a?$cat$" alt="Fashion Color Plimsoll Sneaker"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=18524868b&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=18524868b&parentid=SALE_W">Fashion Color Plimsoll Sneaker</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $18.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=18211912&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/18211912_011_a?$cat$" alt="BDG Skinny Mid-Rise Jean"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=18211912&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=18211912&parentid=SALE_W">BDG Skinny Mid-Rise Jean</a></h2>
+                    <h3 class="price"><span class="price-sale">$29.99</span> <span class="price-list">(was $54.00)</span></h3>
+                    <ul class="category-product-promos">
+                        <li class="category-product-online-only">Online Only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-product">
+                <div class="category-product-media">
+                    <p class="category-product-image"><a href="/urban/catalog/productdetail.jsp?id=16960544&parentid=SALE_W"><img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/16960544_081_a?$cat$" alt="BDG Super Skinny Racerback Tank Top"></a></p>
+                    <p class="category-product-snapshot"><a href="/urban/catalog/productdetail.jsp?id=16960544&parentid=SALE_W"><img src="/urban/images/2007_holiday/quicklook.png" alt="Quick Look"></a></p>
+
+                </div>
+                <div class="category-product-description">
+                    <h2><a href="/urban/catalog/productdetail.jsp?id=16960544&parentid=SALE_W">BDG Super Skinny Racerback Tank Top</a></h2>
+                    <h3 class="price"><span class="price-sale">$9.99</span> <span class="price-list">(was $16.00)</span></h3>
+                    <ul class="category-product-promos">
+                    </ul>
+                </div>
+            </div>
+        </div>                        
+                                
+        <!-- Category pagination: SALE_W -->
+        <div class="category-pagination">
+            <p><span class="category-pagination-page-size"><a href="?&id=SALE_W&itemCount=20">Show 20 per page</a></span> <span class="category-pagination-pages"><a href="?&id=SALE_W&startValue=2001">&larr;</a> 27 of 27 <span>&rarr;</span></span></p>
+        </div>
+        
+        <!-- Recommended/related products for SALE_W -->
+        <div id="bn_justforyou">
+        </div>
+    </div>
+    
+    <!-- Faceted navigation: SALE_W -->
+    <div id="category-nav">
+        
+        <!-- Faceted navigation: facets -->
+        <div id="category-nav-facets" class="category-nav-section">
+            <h2>Refine By</h2>
+                    
+            <!-- Faceted navigation: categories -->
+            <div class="category-nav-facet">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_dresses"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dresses</span></a></li>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_clothing"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Tops</span></a></li>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_clothing_jackets"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Jackets + Blazers</span></a></li>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_bottoms"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bottoms</span></a></li>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_intimates"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Swim + Intimates</span></a></li>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_shoes"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Shoes</span></a></li>
+                    <li><a href="?&id=SALE_W&categories=catalog01_sale_sale_w_sale_w_acc"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Accessories</span></a></li>
+                </ul>
+            </div>
+            
+            <!-- Faceted navigation: skusize_normalized -->
+            <div id="category-nav-facet-size" class="category-nav-facet">
+                <h3>Size</h3>
+                <ul>
+                    <li><a href="?&id=SALE_W&skusize_normalized=xs"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>XS</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=s"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>S</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=m"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>M</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=l"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>L</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=xl"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>XL</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=0"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>0</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=2"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>2</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=4"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>4</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=52e5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>5.5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=6"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>6</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=62e5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>6.5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=7"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>7</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=72e5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>7.5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=8"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>8</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=82e5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>8.5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=9"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>9</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=92e5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>9.5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=10"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>10</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=102e5"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>10.5</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=11"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>11</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=12"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>12</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=13"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>13</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=24"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>24</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=25"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>25</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=26"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>26</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=27"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>27</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=28"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>28</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=29"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>29</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=30"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>30</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=31"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>31</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=32"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>32</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=3220b"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>32 B</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=3220c"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>32 C</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=3420b"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>34 B</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=3420c"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>34 C</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=3620b"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>36 B</span></a></li>
+                    <li><a href="?&id=SALE_W&skusize_normalized=3620c"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>36 C</span></a></li>
+                </ul>
+            </div>
+            
+            <!-- Faceted navigation: skucolor_normalized -->
+            <div id="category-nav-facet-color" class="category-nav-facet">
+                <h3>Color</h3>
+                <ul>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=black"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Black</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=blue"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Blue</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=beige"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Beige</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=grey"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Grey</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=red"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Red</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=brown"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Brown</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=white"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>White</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=gold"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Gold</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=pink"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Pink</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=purple"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Purple</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=silver"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Silver</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=green"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Green</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=assorted"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Assorted</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=orange"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Orange</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=yellow"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Yellow</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=black202620white"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Black & white</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=metallic"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Metallic</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=mint"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mint</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=alphabet"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Alphabet</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=animal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Animal</span></a></li>
+                    <li><a href="?&id=SALE_W&skucolor_normalized=clear"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Clear</span></a></li>
+                </ul>
+            </div>
+            
+            <!-- Faceted navigation: default_price_min/default_price_max -->
+            <div id="category-nav-facet-price" class="category-nav-facet">
+                <h3>Price</h3>
+                <div id="category-nav-facet-price-range"></div>
+                <p><span id="category-nav-facet-price-label"></span><input type="hidden" name="category-nav-facet-price-min" value="1.99"><input type="hidden" name="category-nav-facet-price-max" value="550.99"><input type="hidden" name="category-nav-facet-price-low" value="1.99"><input type="hidden" name="category-nav-facet-price-high" value="550.99"><input type="hidden" name="category-nav-facet-price-href" value="?&id=SALE_W&itemCount=80&priceMin=0.0&priceMax=0.0&priceLow=0.0&priceHigh=0.0"></p>
+            </div>
+            
+            <!-- Faceted navigation: brand -->
+            <div class="category-nav-facet">
+                <h3>brand</h3>
+                <ul>
+                    <li><a href="?&id=SALE_W&brand=220bandits"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>2 Bandits</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=2x3"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>2x3</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=52520america"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>525 America</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=a2ev2e20max"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>a.v. max</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=adidas"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>adidas</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=adorn20by20sarah20lewis"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Adorn By Sarah Lewis</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=adrienne20larsen"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Adrienne Larsen</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=alkemie"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Alkemie</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=all20black"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>All Black</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=allibelle"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>ALLIBELLE</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=alternative"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Alternative</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=altru"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Altru</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=amanda20goss"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Amanda Goss</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=angie"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Angie</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=anna20sui"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Anna Sui</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=a20peace20treaty"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>A Peace Treaty</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=arno20sorel"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Arno Sorel</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=ash"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Ash</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=baggu"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BAGGU</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=band20of20gypsies"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Band of Gypsies</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bass"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bass</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bb20dakota"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BB Dakota</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bc20footwear"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BC Footwear</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bdg"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BDG</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bdg20x20the20reformation"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BDG x The Reformation</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bed20stu"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bed Stu</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bensimon"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bensimon</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bess204020uo"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BESS @ UO</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=betsey20johnson"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Betsey Johnson</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bing20bang"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bing Bang</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=blackheart"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Blackheart</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=black20orchid"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Black Orchid</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=blanknyc"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>BLANKNYC</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bleulab"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bleulab</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=blood20is20the20new20black"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Blood is the New Black</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bryna20bay"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Bryna Bay</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=bycorpus"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>byCORPUS</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=c26ouml"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>C&Ouml</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=carin20wester"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Carin Wester</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=carrera"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Carrera</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=carrot"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Carrot</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=chandi202620lia"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Chandi & Lia</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=cheap20monday"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Cheap Monday</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=chelsea20crew"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Chelsea Crew</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=chrishabana"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Chrishabana</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=cities20in20dust"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Cities In Dust</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=citrine20by20the20stones"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Citrine By The Stones</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=coal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Coal</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=coincidence20and20chance"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Coincidence and Chance</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=colorstory20by20all20for20the20mountain"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Colorstory by All For The Mountain</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=cooperative"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Cooperative</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=cope"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>COPE</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=corner20shop"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Corner Shop</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=costa20blanca"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Costa Blanca</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dallin20chase"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dallin Chase</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=daniella20kallmeyer"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Daniella Kallmeyer</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dara20ettinger"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dara Ettinger</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=daryl20k20for20urban20outfitters"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Daryl K for Urban Outfitters</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=daydreamer20la"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Daydreamer LA</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=d20collection"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>D Collection</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=deena202620ozzy"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Deena & Ozzy</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=deux20lux"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Deux Lux</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dittos"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dittos</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=doe"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>DOE</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=doe202620rae"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Doe & Rae</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dolcetta20by20dolce20vita"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dolcetta By Dolce Vita</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dolce20vita"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dolce Vita</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dr2e20martens"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dr. Martens</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dress20the20population"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dress The Population</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dusen20dusen"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Dusen Dusen</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dv820by20dolce20vita"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>DV8 by Dolce Vita</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=dv20by20dolce20vita"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>DV by Dolce Vita</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=eberjey"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Eberjey</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=ecote"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Ecote</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=elizabeth20knight"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Elizabeth Knight</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=elliatt"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Elliatt</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=emily20shaw"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Emily Shaw</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=era20by20kymerah"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>ERA By Kymerah</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=erica20klein"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Erica Klein</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=evil20twin"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Evil Twin</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=facehunter20x20uo"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>FaceHunter x UO</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=family"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Family</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=feather20hearts"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Feather Hearts</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=feathers"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Feathers</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=finders20keepers"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Finders Keepers</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=fiona20paxton"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Fiona Paxton</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=five20crown"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Five Crown</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=flutter20by20jill20golden"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Flutter by Jill Golden</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=for20love202620lemons"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>For Love & Lemons</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=freeze"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Freeze</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=frye"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Frye</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=gemma20correll"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Gemma Correll</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=generic20surplus"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Generic Surplus</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=genie20by20eugenia20kim"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Genie By Eugenia Kim</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=grace20hats"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Grace Hats</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=grey20antics"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Grey Antics</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=grey20city"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Grey City</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=handmade20la"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>HandMade LA</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=hat20attack"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Hat Attack</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=hazel"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Hazel</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=helen20wu"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Helen Wu</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=hometown20heroes"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Hometown Heroes</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=honeydew"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Honeydew</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=house20of20holland"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>House Of Holland</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=insight"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Insight</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=isabel20sicat"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Isabel Sicat</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=jack20by20bb20dakota"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Jack By BB Dakota</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=james20jeans"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>James Jeans</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=jane20tran"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Jane Tran</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=jansport"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Jansport</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=jeffrey20campbell"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Jeffrey Campbell</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=jen27s20pirate20booty"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Jen's Pirate Booty</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=john20fluevog"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>John Fluevog</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=junk20food"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Junk Food</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=karen20london"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Karen London</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=kdny"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>KDNY</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=keds"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Keds</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=keep"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Keep</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=kill20city"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Kill City</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=kimchi20blue"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Kimchi Blue</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=knt20by20kova202620t"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>KNT by Kova & T</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=krochet20kids"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Krochet Kids</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=ladakh"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Ladakh</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=latte"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Latte</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=laura20lombardi"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Laura Lombardi</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=les20prairies20de20paris"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Les Prairies de Paris</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=levi27s"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Levi's</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=life"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>LIFE</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=lords20of20liverpool"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Lords of Liverpool</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=love20heals"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Love Heals</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=love20madly"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Love Madly</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=lovers202620friends"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Lovers & Friends</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=lucca20couture"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Lucca Couture</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=lucky20brand"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Lucky Brand</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=luminess"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Luminess</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=luxury20jones20for20urban20renewal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Luxury Jones for Urban Renewal</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mad20love"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mad Love</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=malababa"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Malababa</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=marais20usa"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Marais USA</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mariafrancescapepe"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>MariaFrancescaPepe</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=marina20callis"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Marina Callis</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=marmen"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Marmen</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=married20to20the20mob"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Married to the Mob</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mary20meyer"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mary Meyer</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=matiko"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Matiko</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=matt202620nat"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Matt & Nat</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=matt20bernson"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Matt Bernson</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=members20only"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Members Only</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=merle20o27grady"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Merle O'Grady</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=messeca"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Messeca</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mfp20for20urban20outfitters"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>MFP for Urban Outfitters</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=miista"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Miista</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=minimarket"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Minimarket</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=minkpink"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>MINKPINK</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=minnetonka"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Minnetonka</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mk20totem"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>MK Totem</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=modern20vintage"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Modern Vintage</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mono202620me"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mono & Me</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=monserat20de20lucca"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Monserat De Lucca</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mont20la20roc"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mont La Roc</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=moo20moo20designs"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Moo Moo Designs</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=motel"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Motel</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mouchette"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mouchette</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=muk20luks"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>MUK LUKS</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=mystree"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Mystree</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=natty20paint"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Natty Paint</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=naven"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Naven</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=neon20grey"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Neon Grey</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=nettie20kent"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Nettie Kent</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=new20balance"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>New Balance</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=nikki20b"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Nikki B</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=noir20jewelry"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>nOir Jewelry</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=nom20de20plume20by20yaya"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Nom de Plume by YaYa</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=nooka"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Nooka</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=not20your20mother27s"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Not Your Mother's</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=npw"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>NPW</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=obey"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Obey</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=objet20du20desir"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Objet Du Desir</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=olive202620oak"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Olive & Oak</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=one20rad20girl"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>One Rad Girl</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=oryany"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Oryany</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=otis202620maclain"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Otis & Maclain</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=out20from20under"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Out From Under</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=palladium"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Palladium</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=paul202620joe"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Paul & Joe</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=pendleton"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Pendleton</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=pins20and20needles"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Pins and Needles</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=plastic20island"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Plastic Island</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=plomo"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Plomo</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=pointer"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Pointer</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=pour20la20victoire"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Pour La Victoire</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=pretty20polly"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Pretty Polly</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=project20social20t"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Project Social T</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=rag20union20x20urban20renewal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Rag Union x Urban Renewal</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=recycled20karma"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Recycled Karma</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=reformed20by20the20reformation"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Reformed by The Reformation</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=religion"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Religion</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=remi202620reid"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Remi & Reid</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=renn"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Renn</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=reverse"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Reverse</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=rocks20paper20metal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Rocks Paper Metal</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=rodebjer"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Rodebjer</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=rumbatime"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>RumbaTime</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sabina"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sabina</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sage"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sage</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sam20edelman"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sam Edelman</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=san202620soni"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>San & Soni</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=san20diego20hat20company"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>San Diego Hat Company</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sandy20hyun"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sandy Hyun</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=senso"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>SENSO</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sessun"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sessun</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=seychelles"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Seychelles</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=shakuhachi"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Shakuhachi</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=shakuhachi20x20uo"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Shakuhachi x UO</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sibilia"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sibilia</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=silence202620noise"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Silence & Noise</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sister20jane"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sister Jane</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=skargorn"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>SkarGorn</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=smith"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Smith</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sold20design20lab"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>SOLD Design Lab</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=solow"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Solow</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=somedays20lovin"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Somedays Lovin</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sparkle202620fade"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sparkle & Fade</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=species20by20the20thousands"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Species By The Thousands</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=spiewak"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Spiewak</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sporto"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sporto</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=staring20at20stars"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Staring at Stars</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=steve20madden"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Steve Madden</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=stolen20girlfriends20club"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Stolen Girlfriends Club</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=study20footwear"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Study Footwear</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=superga"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Superga</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=supra"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Supra</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sway"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sway</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=swear"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>SWEAR</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=swedish20hasbeens"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Swedish Hasbeens</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=sweet20scandal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Sweet Scandal</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=t2eu2ek2e"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>T.U.K.</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=tavik"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Tavik</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=tba"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>tba</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=tela"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Tela</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=the20furies"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>The Furies</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=thief26bandit"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Thief&Bandit</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=this20is20a20love20song"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>This Is A Love Song</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=thistlepearl"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Thistlepearl</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=threads20420thought"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Threads 4 Thought</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=thvm"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>THVM</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=timberland"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Timberland</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=title20unknown"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Title Unknown</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=tripp20nyc"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Tripp NYC</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=truly20madly20deeply"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Truly Madly Deeply</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=tylie20malibu"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Tylie Malibu</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=underground"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Underground</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=unif"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>UNIF</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=urban20renewal"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Urban Renewal</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=urban20renewal20vintage"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Urban Renewal Vintage</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=vagabond"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Vagabond</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=vanessa20mooney"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Vanessa Mooney</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=vans"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Vans</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=velour"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Velour</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=veridiaum"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>VeridiAum</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=verloop"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Verloop</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=vice20veda20x20uo"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>VICE VEDA x UO</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=viveka20bergstrom"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Viveka Bergstrom</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=volta20footwear"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Volta Footwear</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wah20wah"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>WAH WAH</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wanderluster"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Wanderluster</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=warpaint"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Warpaint</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wesc"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>WeSC</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wh10110100120by20won20hundred"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>WH101101001 by Won Hundred</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wildfox20couture"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Wildfox Couture</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wooden20ships"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Wooden Ships</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=wood20wood"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Wood Wood</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=workshop"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Workshop</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=y2er2eu2e"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Y.R.U.</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=yes20master"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Yes Master</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=zara20terez"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Zara Terez</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=zinke"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>Zinke</span></a></li>
+                    <li><a href="?&id=SALE_W&brand=802520"><img src="/urban/images/2007_holiday/faceted-category-facet-bullet.gif"> <span>80%20</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Category video -->
+    <div id="category-video"></div>
+    
+    <!-- Category product snapshot -->
+    <div id="category-snapshot"></div>
+    
+    <!-- Category Coremetrics page view tag -->
+    <script>
+    		
+        jQuery(document).ready(function() {
+        	
+        			cmCreatePageviewTag("SALE_W:PAGE 27", null, "SALE_W", null, null, "-_--_--_--_-");
+        		
+        	
+        });
+    
+    </script>
+    			
+		                            
+                        </div>    
+
+<!-- Dotomi: "abandon page" tag -->
+<script>
+
+    var dtmSrc = window.location.protocol + "//login.dotomi.com/ucm/UCMController?"+"dtm_com=28&dtm_fid=101&dtm_cid=2369&dtm_cmagic=ab8aa0&dtm_format=5";
+    var dtmTag = new Array();
+    dtmTag.cli_promo_id = "3";
+    dtmTag.dtmc_department = "Sale";
+    dtmTag.dtmc_category = "Women&#39;s Sale";
+    dtmTag.dtmc_zip_code = "97201";
+    dtmTag.dtm_user_id = "";
+    dtmTag.dtmc_customer_type = "New";
+    dtmTag.dtmc_ref = document.referrer;
+    dtmTag.dtmc_loc = document.location.href;
+    for (var item in dtmTag) {
+        if (typeof dtmTag[item] != "function" && typeof dtmTag[item] != "object") {
+            dtmSrc += "&" + item + "=" + escape(dtmTag[item]);
+        }
+    }
+    setTimeout("timeOutDotomi()", 2000);
+    document.write("<div id=\"dtmdiv\" style=\"display: none;\"><iframe name=\"response_frame\" src=\"" + dtmSrc + "\"></iframe></div>");
+    
+    function timeOutDotomi() {
+        document.getElementById("dtmdiv").innerHTML = "";
+    }
+
+</script>
+
+<!-- Utility nav -->
+<div id="utility">
+    <div id="utility-nav">
+	
+	<div id="utility_cart">
+        <p id="bagTextLink" class="emptyCart">
+                        	<a href="/urban/checkout/cart.jsp" id="inlineCartLink" class="emptyCart">
+                        	Shopping Bag</a>
+                        </p>
+                        <span id="numUtilityCartItems"></span>
+                    </div>
+    <div id="utility_account">
+        <ul>
+        	<li>
+		            	<h5>
+		            		<a href="/urban/user/login_order_status.jsp">Order Status</a></h5>
+		            </li>
+		            <li>
+		            	<h5>
+			                <form action="/urban/checkout/cart.jsp" name="headerlogoutForm" method="GET"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input><input value="8781347032029192076" type="hidden" name="_dynSessConf"></input><input value="submit" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logout"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logout"><input value="/urban/catalog/category.jsp" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><a href="/urban/user/checkout_login.jsp?anonymouslogin=anonymouslogin&checkoutHeader=hide&formURL=/urban/checkout/cart.jsp" target="_top" id="utility_signin">
+							Sign-In
+						</a><input value="/urban/common/login_check.jsp" type="hidden" name="_DARGS"></input></form><form action="/urban/common/#" name="logout" method="GET"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input><input value="8781347032029192076" type="hidden" name="_dynSessConf"></input><input value="" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logout"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logout"><input value="/urban/user/checkout_login.jsp" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logoutSuccessURL"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logoutSuccessURL"><input value="/urban/catalog/category.jsp" type="hidden" name="/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.logoutErrorURL"><input value="/urban/common/login_check.jsp.1" type="hidden" name="_DARGS"></input></form></h5>
+		            </li>  
+		        </ul>
+    </div>
+    <div id="qualifierBg">
+    	<div id="qualifierCopy">
+    		<strong>Free Returns!</strong> & Free Shipping on all orders over $50</div>
+    </div>
+    
+    </div>
+
+
+</div>
+
+<!-- Footer -->
+<div id="footer">
+<div class="footer wrapper cf">
+  <div class="left footer-col" id="footer-col1">
+    <div class="footer-heading">OUR FAVORITE BRANDS</div>
+    <ul class="left third-width">
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=bdg">BDG</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=kimchi20blue">Kimchi Blue</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=silence202620noise">Silence and Noise</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=levi27s">Levi's</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=obey">Obey</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=vans">Vans</a></li>
+    </ul>
+    <ul class="left half-width">
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=hawkings20mcgill">Hawkings McGill</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=truly20madly20deeply">Truly Madly Deeply</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=cheap20monday">Cheap Monday</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=minnetonka">Minnetonka</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=jeffrey20campbell">Jeffrey Campbell</a></li>
+      <li><a href="/urban/catalog/category.jsp?id=BRANDS&amp;brand=insight">Insight</a></li>
+    </ul>
+  </div>
+  <div class="left footer-col" id="footer-col2">
+    <div class="footer-heading">EVEN MORE UO</div>
+    <div class="cf">
+      <ul class="left third-width">
+        <li><a href="/urban/help/RequestCatalog.jsp">UO Catalog</a></li>
+        <li><a href="/urban/help/rss.jsp">Daily Updates</a></li>
+        <li><a href="/urban/catalog/category.jsp?navAction=jump&amp;id=SHOP_GIFTCARDS">Gift Cards</a></li>
+        <li><a href="/urban/help/help_emailpage.jsp">Email Sign-Up</a></li>
+      </ul>
+      <ul class="left half-width">
+        <li><a href="http://music.urbanoutfitters.com/radio.php?auto=on">UO Radio</a></li>
+        <li><a href="http://urbn.com">URBN.com</a></li>
+        <li><a href="https://urbanoutfitters.silkroad.com">Work at Urban Outfitters</a></li>
+        <li><a href="http://space15twenty.com/">Space15Twenty</a></li>
+      </ul>
+    </div>
+    <div class="bottom cf">
+      <span class="footer-heading left">FOLLOW US</span>
+      <ul class="social left">
+        <li class="left"><a href="http://pinterest.com/urbanoutfitters/"><img src="/urban/images/pinterest.png" alt="Pinterest logo"></a></li>
+        <li class="left"><a href="https://www.facebook.com/urbanoutfitters"><img src="/urban/images/facebook.png" alt="Facebook logo"></a></li>
+        <li class="left"><a href="http://twitter.com/urbanoutfitters"><img src="/urban/images/twitter.png" alt="Twitter logo"></a></li>
+        <li class="left"><a href="http://urbanoutfitters.tumblr.com/"><img src="/urban/images/tumblr.png" alt="Tumblr logo"></a></li>
+        <li class="left"><a href="http://vimeo.com/urbanoutfitters"><img src="/urban/images/vimeo.png" alt="Vimeo logo"></a></li>
+        <li class="left"><a href="http://www.youtube.com/user/uotv"><img src="/urban/images/youtube.png" alt="YouTube logo"></a></li>
+        <li class="left"><a href="http://open.spotify.com/user/urbanoutfitters"><img src="/urban/images/spotify.png" alt="Spotify logo"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="left footer-col" id="footer-col3">
+    <div class="left half-width">
+      <div class="footer-heading">INFO</div>
+      <ul class="light-font">
+        <li><a href="/urban/help/helpinfo.jsp">Help</a></li>
+        <li id="needle_footer"></li>
+        <li><a href="/urban/user/site_preference.jsp?showOptions=true" onclick="return(cmCreatePageElementTag('CHANGEREGION','SITEFOOTER'));">Change Region</a></li>
+        <li><a href="/urban/help/store_locator.jsp">Store Locations</a></li>
+        <li><a href="/urban/help/privacy_security.jsp">Privacy Policy</a></li>
+        <li><a href="/urban/help/terms_of_use.jsp">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div class="left">
+      <div class="footer-heading">HQ</div>
+      <p class="light-font">
+      <span>&copy; 2013 UrbanOutfitters.com</span><br>
+      <span>All Rights Reserved</span><br>
+      <span><a href="http://urbn.com/doc/California-Transparency-in-Supply-Chain-Act-URBN.pdf" target="_blank">CA Notice</a></span><br>
+      <span>1.800.282.2200</span>
+      </p>
+      <br>
+      <div class="light-font">We Accept: <img id="paypal-icon" src="/urban/images/paypal.png" alt="PayPal logo"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Needle -->
+<script>
+
+    Needle = {
+        onload: window.onload
+    };
+    
+    window.onload = function() {
+        var e = document.createElement("script");
+        e.async = true;
+        e.src = document.location.protocol + "//urbanoutfitters.needle.com/needle_service.js";
+        document.body.appendChild(e);
+        if (typeof Needle.onload != "undefined" && Needle.onload !== null) {
+            Needle.onload();
+        }
+    };
+
+</script>
+
+<!-- Baynote -->
+<script src="/urban/js/baynote.js" defer></script> 
+
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>
+
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: "135847173361",
+            status: true,
+            cookie: true,
+            xfbml: true
+        });
+    };
+
+    // Load the SDK Asynchronously
+    (function(d){
+       var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       ref.parentNode.insertBefore(js, ref);
+     }(document));
+
+</script>
+
+<!-- Channel Advisor -->
+<script>
+
+    document.write("<img src=\"" + document.location.protocol + "//tracking.searchmarketing.com/welcome.asp?SMCID=53000704&x=" + escape(document.referrer) + "\" width=\"1\" height=\"1\">");
+
+</script>
+</html>
